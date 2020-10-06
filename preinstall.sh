@@ -122,7 +122,7 @@ sed -i 's/^# %wheel ALL=(ALL) NOPASSWD: ALL/%wheel ALL=(ALL) NOPASSWD: ALL/' /et
 refind-install
 
 cd /home/fewcm 
-git clone https://github.com/FewCM/linuxscipts
+git clone https://github.com/FewCM/linuxscripts
 
 sleep 60
 
