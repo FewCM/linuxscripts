@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>open-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1581593230771688-1</unique-id>
+	<command>/usr/bin/urxvtc</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>emblem-symbolic-link</icon>
+	<name>Create symlink</name>
+	<unique-id>1599628231598793-1</unique-id>
+	<command>ln -s %f &quot;%n&quot;</command>
+	<description>Softlink between two files or directories</description>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>folder-root</icon>
+	<name>Open folder as root</name>
+	<unique-id>1599628495000752-2</unique-id>
+	<command>pkexec thunar %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>dialog-xml-editor</icon>
+	<name>Edit as root</name>
+	<unique-id>1599628617798959-3</unique-id>
+	<command>pkexec geany %F</command>
+	<description>edit as root</description>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>application-x-root</icon>
+	<name>Ownership to user</name>
+	<unique-id>1599628983536855-4</unique-id>
+	<command>pkexec chown -R $USER:$USER %F</command>
+	<description>Change permissions to user</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>

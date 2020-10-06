@@ -1,0 +1,49 @@
+;=====================================================
+; The system tray and other default values for bars
+; inheriting from master are enabled in master.conf
+;
+; modules.conf contains all the modules that can be
+; added to a bar (NOTE: some will require configuration)
+
+[section/base]
+include-file = ~/.config/i3/3_bars/master.conf
+include-file = ~/.config/i3/3_bars/modules.conf
+
+;==================================================
+; i3 Bar
+
+[bar/top]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor = DP1
+
+modules-left = launcher i3
+modules-center = date2
+modules-right =  date
+;modules-right = cpu memory filesystem temperature updates alsa network date sysmenu
+
+
+;=====================================================
+; Bspwm Bars
+
+[bar/left]
+inherit = bar/master2
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor = DP1
+
+modules-left =
+modules-center =
+modules-right  = left-end-top previous playpause next mpd_bar sep
+
+
+[bar/panel]
+inherit = bar/master3
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor = DP1
+
+modules-right = left-end-top network alsa left-end-top2
+
+;=====================================================

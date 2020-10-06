@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Created By Aditya Shakya
+
+DIR="$HOME/.config/"
+
+#rofi -no-lazy-grab -show drun -theme $DIR/rofi/themes/launcher.rasi
+rofi -modi run,drun -show drun -line-padding 4 -columns 2 -width 40 -padding 30 -hide-scrollbar -theme $DIR/rofi/themes/launcher.rasi

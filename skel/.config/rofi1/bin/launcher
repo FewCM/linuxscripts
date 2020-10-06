@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#DIR="$HOME/.config/"
+
+rofi -modi run,drun -show drun -theme /home/fewcm/.config/rofi/themes/style_normal_grid.rasi
+#rofi -modi run,drun -show drun -line-padding 4 -columns 2 -width 40 -padding 30 -hide-scrollbar -theme /home/fewcm/.config/rofi/themes/style_normal_grid.rasi

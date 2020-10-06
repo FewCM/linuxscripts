@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Switch from tablet mode into normal desktop mode
+
+killall onboard
+killall unclutter
+rotate_display normal
+~/.config/i3/scripts/polybar_tablet close
+feh --randomize --bg-fill ~/.config/i3/wallpapers
+

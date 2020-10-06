@@ -1,0 +1,14 @@
+! ------------------------------------------------------------------------------
+! Fonts
+! ------------------------------------------------------------------------------
+
+!URxvt.font: xft:JetBrainsMono Nerd Font:regular:size=10
+!URxvt.boldFont: xft:JetBrainsMono Nerd Font:bold:size=10
+!URxvt.italicFont: xft:JetBrainsMono Nerd Font:italic:size=10
+!URxvt.boldItalicfont: xft:JetBrainsMono Nerd Font:boldItalic:size=10
+
+
+URxvt.font: xft:FantasqueSansMono Nerd Font:regular:size=10
+URxvt.boldFont: xft:FantasqueSansMono Nerd Font:bold:size=10
+URxvt.italicFont: xft:FantasqueSansMono Nerd Font:italic:size=10
+URxvt.boldItalicfont: xft:FantasqueSansMono Nerd Font:boldItalic:size=10

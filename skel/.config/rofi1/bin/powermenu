@@ -1,0 +1,57 @@
+#!/bin/bash
+
+DIR="$HOME/.config/"
+
+rofi_command="rofi -theme $DIR/rofi/themes/powermenu.rasi"
+
+uptime=$(uptime -p | sed -e 's/up //g')
+
+# Options
+if [[ "$DIR" == "powermenus" ]]; then
+	shutdown=""
+	reboot=""
+	lock=""
+	suspend=""
+	logout=""
+	ddir="$HOME/.config/rofi/$DIR"
+else
+	shutdown=" Shutdown"
+	reboot=" Restart"
+	lock=" Lock"
+	suspend=" Sleep"
+	logout=" Logout"
+	ddir="$HOME/.config/rofi/dialogs"
+fi
+
+rdialog () {
+rofi -dmenu\
+    -i\
+    -no-fixed-num-lines\
+    -p "Are You Sure? : "\
+    -theme "$ddir/confirm.rasi"
+}
+
+# Variable passed to rofi
+MSG="Options : yes/no/y/n"
+options="$lock\n$suspend\n$logout\n$reboot\n$shutdown"
+
+chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 0)"
+case $chosen in
+    $shutdown)
+	systemctl poweroff
+        ;;
+    $reboot)
+        systemctl reboot
+        ;;
+    $lock)
+        betterlockscreen --lock
+        ;;
+    $suspend)
+        mpc -q pause
+        amixer set Master mute
+        betterlockscreen --suspend
+        ;;
+    $logout)
+        openbox --exit
+        ;;
+esac

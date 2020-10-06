@@ -1,0 +1,9 @@
+* {
+  selected:           #00796B;
+  background:       #263238;
+  urgent:  #00796B;
+  foreground:       #E7E8EB;
+  on:               #44ad4d;
+  off:              #e34039;
+}
+

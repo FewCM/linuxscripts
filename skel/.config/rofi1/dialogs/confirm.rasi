@@ -1,0 +1,24 @@
+@import "colors.rasi"
+
+* {
+    background-color:       #242C38ff;
+    text-color:             #F2F2F4ff;
+	font:				 	"System-ui Regular 10";
+}
+
+window {
+    width:      			200px;
+    padding:    			20px;
+    border:					0px;
+    border-radius:          0px;
+    border-color:          #EC407Aff;
+    location:               center;
+    x-offset:               0;
+    y-offset:               -8%;
+}
+
+entry {
+    expand: 				true;
+    width: 					150px;
+    text-color:				#EC407Aff;
+}

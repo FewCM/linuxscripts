@@ -1,0 +1,2369 @@
+sudo pacman -S go
+yay -S neofetch
+yay -S google-chrome firefox
+yay -S xdg-utils
+yay -S base-devel
+sudo pacman -S xorg-xinit
+sudo nano /etc/X11/xinit/xinitrc
+sudo micro /etc/X11/xinit/xinitrc
+sudo ln -s /etc/fonts/conf.avail/70-yes-bitmaps.conf /etc/fonts/conf.d/
+fc-cache -v
+dunst
+yay -Ss microhei
+yay -S tint2
+yay -S urxvt
+yay -S rxvt-unicode-pixbuf
+fc-list | grep isoveka
+fc-list | grep iosevka
+fc-list | grep iosevka-fixed
+sudo pacman -S xbindkeys
+xrdb . ~/.Xresources
+sudo themerc
+sedit themerc
+sudo -S xdg-user-dirs
+sudo pacman -S xdg-user-dirs
+usermod
+sudo userdel 0
+sudo rm -rf 0
+ob_powermenu --logout
+dunst hi
+yay -S dunst
+yay -S kunst
+poweroff
+firefox -a https://www.google.com
+google-chrome-stable -a https://www.google.com
+usermod -m fewcm
+usermod -m /home/fewcm fewcm
+sudo usermod -d /home/fewcm1 fewcm
+usermod -d /home/fewcm1 fewcm
+sudo pacman-key --init
+pacman-key --init
+sudo pacman-key --populate arcolinux
+sudo pacman-key --keyserver hkps://hkps.pool.sks-keyservers.net:443 -r 74F5DE85A506BF64
+pacman-key --keyserver hkp://pool.sks-keyservers.net:80 -r 74F5DE85A506BF64
+sudo pacman-key --keyserver hkp://pool.sks-keyservers.net:80 -r 74F5DE85A506BF64
+sudo pacman-key --lsign-key 74F5DE85A506BF64
+sudo pacman-key --refresh-keys
+yay -S arcolinux-tweak-tool-git
+yay -Ss arcolinux
+yay -Ss arcolinux-apps-git
+yay -S arcolinux-apps-git
+pkexec '/usr/share/arcolinux-tweak-tool/arcolinux-tweak-tool.py' 
+sudo '/usr/share/arcolinux-tweak-tool/arcolinux-tweak-tool.py' 
+yay -Rsnc arcolinux-apps-git
+yay -Rscn arcolinux-tweak-tool-git
+yay -S ttf-font-awesome
+sudo useradd -m -G wheel -s /usr/bin/zsh fewcm1
+cut -d: -f1 /etc/passwd
+passwd fewcm1
+sudo passwd fewcm1
+free -mt
+xdg-user-dirs-update
+yay -Rscn xdg-user-dirs
+yay -S xdg-user-dirs-gtk3
+yay -Ss xdg-user-dirs
+sudo userdel fewcm1
+cd /home
+sudo rm -rf fewcm1
+git clone https://github.com/zodd18/dotfiles.git
+yay -S telnet
+yay -S ack
+ack lsb-release
+sudo ack lsb-release
+sysinfo
+alpha
+arch
+colortest
+colorview
+colorwheel
+dna
+dog
+illumina 
+monster
+mouseface
+skullpuke
+pacman1
+pacman2
+square
+unix
+bonsai-tree
+fetch
+riplong
+unowns.py
+git clone https://github.com/owl4ce/dotfiles.git dotfiles1
+~/.config/rofi/scripts/mpd.sh
+~/.ncmpcpp/scripts/notify
+mpc current
+~/.config/tint2/executor/mpd
+yay -Ss ndisc6
+yay -S cava
+yay -S pulseaudio
+amixer
+yay -Ss alsa
+yay -S alsa-firmware
+yay -Ss pulse
+net
+yay -S pepper-flash
+iw
+iw wdev
+iw dev
+iw enabke
+iw enable
+iw dev enable
+wpa_supplicant
+yay -S b43-firmware\
+
+devicons_dir=$HOME/.config/ranger/plugins/ranger_devicons
+[ -d $devicons_dir ] && rm -rf $devicons_dir
+git clone https://github.com/alexanderjeurissen/ranger_devicons $devicons_dir
+sudo pacman -Sy network-manager-applet gnome-keyring
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+yay -S micro
+elfman
+pyenv shell
+pyenv version
+pyenv install --list
+pyenv install 3.8.5
+pip install -U pip
+python version
+python --version
+python install pip
+pip
+wget https://bootstrap.pypa.io/get-pip.py
+python ./get-pip.py
+rm get-pip.py
+python3 -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/master.zip
+micro ~/.config/zsh/.zshenv
+pyenv uninstall 3.8.5
+which python
+yay -S brcmfmac
+yay -S brcm80211\
+
+yay -S broadcom-wl
+dmesg | grep bcrm
+yay -Rsnc broadcom-wl
+sudo rmmod b43 b43legacy bcm43xx bcma brcm80211 brcmfmac brcmsmac ssb wl\
+  modprobe wl\
+
+yay -S wl
+yay -S expac 
+yay -Ss wen
+yay -S linux-header
+sudo pacman -S linux-header
+yay -Ss linux
+lspci -vnn -d 14e4:
+lspci -vnn -d 
+lspci -nn -d 14e4:
+lspci 
+b43-firmware-classic
+pacmd list-sinks
+fc-list | grep material
+yay -S gcalsimple
+yay -Ss calsimple
+yay -Ss simple
+yay -Ss gcalsimple
+yay -Ss gcal
+yay -S gsimplecal
+yay -Ss citra-qt-git
+yay -S archiso
+sudo cp -R /usr/share/archiso/configs/releng archlive
+update-fc
+yay -S youtube-dl
+alias
+yta-mp3 https://www.youtube.com/watch?v=db0Se8D8UxQ
+yta-mp3 https://youtu.be/tvA78U8sWn0 https://youtu.be/sEL7qazFqCs
+yta-mp3 https://www.youtube.com/watch?v=SiC2H4CotIs https://www.youtube.com/watch?v=yrk6L3szchw https://www.youtube.com/watch?v=9KuwVAq8-lY https://www.youtube.com/watch?v=VlMN_JbEJwI https://www.youtube.com/watch?v=v6hHThJoZ50 https://www.youtube.com/watch?v=-QzcVyrNcN8 https://www.youtube.com/watch?v=o4uKot0OGXs https://www.youtube.com/watch?v=V7CX7AHgLjg 
+yta-mp3 https://www.youtube.com/watch?v=HJNmwrK-ejA 
+yay -S psuinfo t2ex
+yay -S psuinfo t2ec
+./weather 
+notify-send weather.py
+notify-send WEATHER.Py
+notify-send --help
+dunst -print
+dunstify
+dunstify /home/fewcm/.config/tint2/executor/weather.py
+dunstify "python3 /home/fewcm/.config/tint2/executor/weather.py"
+dunstify --help
+psuinfo -Cg -Ia -It -If -IM -In -W0 -In -W1 -Iu -S' âƒ´ƒª '
+psuinfo -Cg -IatfMN -w0 -iN -w1 -iU -s' âƒ´ƒª '
+psuinfo -Cg -IatfMN
+psuinfo -Cg -Ia
+psuinfo -Cg -IatfM
+psuinfo -CIgStfM
+psuinfo -Ia
+psuinfo -IaT
+psuinfo -Ia -T
+psuinfo -Ia && psuinfo -It
+psuinfo -Cg 
+psuinfo -g 
+psuinfo -Ia & psuinfo -It
+psuinfo -Cg && psuinfo -Ia && psuinfo -It && psuinfo -If && psuinfo -IM && psuinfo -In -W0 && psuinfo -In -W1 && psuinfo -Iu
+psuinfo -Cg && psuinfo -Ia && psuinfo -It && psuinfo -IM && psuinfo -In -W0 && psuinfo -In -W1 && psuinfo -Iu && psuinfo -Ik
+psuinfo -all
+psuinfo -Iall
+psuinfo -I -all
+psuinfo -N
+psuinfo -Cg -Ia -It
+psuinfo  -Ia -It
+ psuinfo -CgStmNu -N -S' âƒ´ƒª '
+ psuinfo -CgStmDu -N -S' âƒ´ƒª '
+ psuinfo -CgStmu -W0 -W1 -N -S' âƒ´ƒª '
+ psuinfo -CgStmu -WD0 -WD1 -N -S' âƒ´ƒª '
+ psuinfo -CgStmu -W0D -N -S' âƒ´ƒª '
+ psuinfo -CgStmu -nW0 -N -S' âƒ´ƒª '
+ psuinfo -CgStmuW0 -N -S' âƒ´ƒª '
+ psuinfo -CgStmuW1 -N -S' âƒ´ƒª '
+ psuinfo -CgStmuW2 -N -S' âƒ´ƒª '
+ psuinfo -CgStmuW -N -S' âƒ´ƒª '
+ psuinfo -CgStmuWd -N -S' âƒ´ƒª '
+ psuinfo -CgStmuW0d -N -S' âƒ´ƒª '
+psuinfo -In -W
+psuinfo -In -W1
+psuinfo -gStmu -W1
+psuinfo -gStmuW1
+ psuinfo -CgStfMD -N
+ psuinfo -CgStfMDW -N
+ psuinfo -CgStfMDW0 -N
+ psuinfo -CgStfMDW5 -N
+psuinfo -CgStfM
+psuinfo -CgStfmxdu -N -S' âƒ´ƒª '
+psuinfo -CgStfmdu -N -S' âƒ´ƒª '
+psuinfo -CgStfmduk -N -S' âƒ´ƒª '
+~/.config/tint2/executor/network status && psuinfo -Ik\
+execp_interval = 1
+~/.config/tint2/executor/network status && psuinfo -Ik
+psuinfo -k -M up
+psuinfo k -M up
+psuinfo  -kiM
+psuinfo  -kM
+psuinfo  -Ck
+psuinfo  -Ck -M up
+psuinfo  -Ck -Mup
+tint2
+fc-list | grep wen
+pkill tint2]
+sudo pacman -Syu fcitx fcitx-googlepinyin fcitx-im fcitx-configtool
+fc-list | grep Material
+~/.config/polybar/default/scripts/updates.sh
+yay -Ss skype
+yay -S dotbare
+yay -S tree
+dotbare finit
+ssh-keygen -t rsa -b 4096 -C "sweewei.tham@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+xclip -sel clip < ~/.ssh/id_rsa.pub
+dotbare fedit
+dotbare -fedit
+dotbare fadd
+dotbare -g
+dotbare fadd -f
+dotbare fadd -d
+dotbare flog
+dotbare fstash
+dotbare fstat
+dotbare fadd 
+git init
+git stat
+git config --global user.email "sweewei.tham@gmail.com"
+git commit -m "first commit to the repo"
+git config --global user.name "FewCM"
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/FewCM/dotfiles-.git
+git add -d
+git status
+git commit -m "second commit to the repo"
+git commit -m "third commit to the repo"
+ssh -T git@github.com
+git commit -m "forth commit to the repo"
+git commit -m "fifth commit to the repo"
+yay -S gufw
+sudo pacman -S pambase
+sudo pacman -S pam
+ systemctl status systemd-homed.service
+sudo  systemctl enable systemd-homed.service
+sudo  systemctl start systemd-homed.service
+sudo pacman -Rns $(pacman -Qtdq)
+git add .
+git commit -m "sixth commit to the repo"
+git push -u origin master
+gufw
+sudo pacman -S pkexec
+pkexec
+pgrep -a polkit
+sudo pacman -S xorg-xset 
+xset r rate 190 35
+gnome-keyring-daemon
+DISPLAY=:0.1 urxvt &
+xrandr -q
+X -version
+lspci | grep -e VGA -e 3D
+lspci | grep -e VGA -e DP
+sudo Xorg :0 -configure
+sudo Xorg :1 -configure
+sh WideGuy-x86_64.AppImage
+sudo pacman -S xinerama
+sudo pacman -S Xinerama
+sudo pacman -Ss Xinerama
+sudo pacman -S libxinerama
+nitrogen --restore 
+nitrogen --force-setter=xinerama
+sudo nitrogen --head=0 --random
+nitrogen --head=0 --random
+nitrogen --head=1 --random
+nitrogen --head=0 --set-auto /home/fewcm/Wallpapers/nord-theme/japanese-street.png --head=1 --set-auto home/fewcm/Wallpapers/nord-theme/jl8w9qkse8e21.jpg --random
+nitrogen --head=0 --set-auto /home/fewcm/Wallpapers/nord-theme/japanese-street.png --head=1 --set-auto home/fewcm/Wallpapers/nord-theme/jl8w9qkse8e21.jpg
+nitrogen --head=0 /home/fewcm/Wallpapers/nord-theme/japanese-street.png --head=1 home/fewcm/Wallpapers/nord-theme/jl8w9qkse8e21.jpg
+nitrogen --head=0 /home/fewcm/Wallpapers/nord-theme/japanese-street.png && nitrogen --head=1 home/fewcm/Wallpapers/nord-theme/jl8w9qkse8e21.jpg
+nitrogen /home/fewcm/Wallpapers/nord-theme/japanese-street.png /home/fewcm/Wallpapers/nord-theme/jl8w9qkse8e21.jpg
+nitrogen --force-setter=xinerame /home/fewcm/Wallpapers/nord-theme/japanese-street.png /home/fewcm/Wallpapers/nord-theme/jl8w9qkse8e21.jpg
+feh /home/fewcm/Wallpapers/nord-theme/japanese-street.png /home/fewcm/Wallpapers/nord-theme/jl8w9qkse8e21.jpg
+feh
+feh --help
+feh --bg-scale /home/fewcm/Wallpapers/nord-theme/japanese-street.png --bg-scale /home/fewcm/Wallpapers/nord-theme/jl8w9qkse8e21.jpg
+sudo pacman -S synapse 
+synapse 
+sudo micro lxdm.conf
+micro ~/.config/openbox/rc.xml
+micro ~/.config/openbox/menu.xml
+urxvtc -geometry
+urxvtc -help
+urxvtc -tint color
+urxvtc -tint blue
+urxvtc -geometry 145x45
+urxvtc -geometry 145x35
+urxvtc -geometry 145x30
+urxvtc -geometry 155x30
+exo-open
+urxvtc micro /home/fewcm/.config/openbox/menu.xml
+urxvtc -e  micro /home/fewcm/.config/openbox/menu.xml
+micro /home/fewcm/.config/openbox/menu.xml
+aria2c https://f73.megaup.net/1taqa/Shieldv0NSP-pokemonerdotcom.part1.rar?download_token=26050f6dee17bf84d9b8ff8843711a888da6e8581fabe04cdaae5731904ddab2
+LC_ALL=C lscpu | grep Virtualization
+zgrep CONFIG_KVM /proc/config.gz
+sudo pacman -S virt-manager qemu vde2 ebtables dnsmasq bridge-utils openbsd-netcat
+sudo pacman -S cabextract wimlib cdrtools chntpw
+./uup_download_linux.sh
+yay -S urxvt-perls-git
+sudo pacman -S go base-devel refind nano firefox pepper-flash gnome-polkit
+yay -S google-chrome chromium
+sudo pacman -S polkit-gnome
+sudo pacman -S go base-devel refind nano firefox pepper-flash gnome-keyring
+yay -S b43-firmware-classic
+yay -S authy-snap fcitx-configtool fcitx-googlepinyin
+yay -S gsimplecal micro tint2 tree ack xlip xbindkeys youtube-dl
+yay -S gsimplecal micro tint2 tree ack xclip xbindkeys youtube-dl
+yay -S xdg-user-dirs-gtk
+yay -S wqy-microhei
+yay -S wget
+yay -S neovim
+yay -S terminus-font-otb
+yay -S t2ec
+yay -S skypeforlinux-stable-bin
+yay -S tty-clock
+yay -S bleachbit
+tty-clock
+sudo chown -R fewcm fewcm
+yay -S broadcom-wl-dkms 
+yay -S iwd
+yay -S iw
+jq weather_14.json
+ack 
+ack Petaling Jaya
+ack weather_14.json
+mpc
+micro ~/.config/tint2/tint2rc
+exec urxvtc -e -geometry 135x30 'ncmpcpp -s visualizer'
+exec urxvtc -e -geometry 135x30 'ncmpcpp -s visualizer' &&
+exec urxvtc -e -geometry 135x30 'ncmpcpp -s visualizer' &
+exec urxvtc -e -geometry 135x30 &
+micro ~/.ncmpcpp/config
+>>>>>>>9M
+sudo -S transmission-gtk
+sudo pacman -S transmission-gtk
+transmission-gtk
+yay -S nodejs
+yay -S npm
+git clone https://github.com/nixton9/HomePage.git
+cd HomePage
+cd client
+npm install
+sudo pacman -S m4
+yay -S  libfragmentzip-git
+yay -S  futurerestore
+yay -S libimobiledevice-git 
+yay -S expac
+yay -S  futurerestore-git 
+tty-clock -h
+tty-clock -b -c -C 7 
+tty-clock -b -c -C7 
+tty-clock -b -c -C2
+tty-clock -b -c -C0
+tty-clock -b -c -C1
+tty-clock -b -c -C1 -s
+tty-clock -b -c -C1 -r
+futurerestore
+irecovery
+ideviceinfo
+unzip /home/fewcm/Downloads/iPhone_5.5_P3_13.7_17H35_Restore.ipsw
+futurerestore -help
+yay -S arandr
+sudo pacman -S openresolv
+resolvconf
+resolvconf -u
+sudo resolvconf -u
+sudo pacman -S netctl
+resolvectl status
+sudo pacman -S openvpn dialog python-pip python-setuptools
+sudo pip3 install protonvpn-cli
+sudo protonvpn init
+sudo protonvpn connect
+systemd-analyze critical-chain
+systemd-analyze plot > plot.svg
+bspc query -M | sed -n 1
+bspc query -M | sed -n DP1
+bspc query -M 
+bspc query -M | sed -n 1p
+polybar /home/fewcm/.config/bspwm/polybar/config
+xrandr --query | grep ' connected' | awk '{print $1}' | while read monitor\
+do\
+    MONITOR=${monitor} polybar main -c ~/.config/bspwm/polybar/config &\
+done
+xrandr --query | grep ' connected' | awk '{print $1}'
+MONITOR=DP1 polybar --config="~/.config/bspwm/polybar/config" main &
+xrandr --query | grep ' connected' | awk '{print $1}' | while read monitor\
+do\
+    MONITOR=DP1 polybar --config="~/.config/bspwm/polybar/config" &\
+    MONITOR=VGA1 polybar --config="~/.config/bspwm/polybar/config" &\
+done
+polybar --config="~/.config/bspwm/polybar/config" &
+polybar -c "~/.config/bspwm/polybar/config" &
+polybar -c ~/.config/bspwm/polybar/config
+polybar -c ~/.config/bspwm/polybar/config main &
+xrandr --query | grep ' connected' | awk '{print $1}' | while read monitor\
+do\
+    MONITOR=DP1 polybar -c ~/.config/bspwm/polybar/config main &\
+    MONITOR=VGA1 polybar -c ~/.config/bspwm/polybar/config main  &\
+done
+/home/fewcm/.config/bspwm/bin/bspbar
+notify-send DP1
+notify-send VGA1
+cd ~/.config/bspwm
+ls -al
+cd bin
+micro bspcolors
+micro bspt
+micro bspterm
+micro bspbar
+for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do\
+    MONITOR=$m polybar main &\
+done\
+
+polybar -c ~/.config/bspwm/polybar/config nord &
+mkdir Github
+for m in $(polybar --list-monitors | cut -d":" -f1)
+$(polybar --list-monitors | cut -d":" -f1)
+echo $MONITOR
+bspc monitor 
+bspc monitor --help
+bspc monitor -h
+bspc monitor --h
+bspc -h
+bspc --help
+man bspc
+firefox &
+[200~bspc monitor DP1 -d 'I' 'II' 'III' 'IV' 'V' 'VI' ]
+bspc monitor DP1 -d 'I' 'II' 'III' 'IV' 'V' 'VI' \
+bspc monitor VGA1 -d 'VII' 'VIII'
+bspc monitor DP1 -d 'I' 'II' 'III' 'IV' 'V' 'VI' 
+tint2 &
+notify-send
+bspc query -M
+nautilus "%d"
+thunar "%d"
+thunar %d
+lz4
+lz4 -h
+sudo pacman -S ipxe-netboot
+yay -S ipxe-netboot
+efibootmgr
+sudo systemctl enable lxdm
+sudo systemctl start lxdm
+yay -S lemonbar-git
+yay -S lemonbuddy-git
+yay -Rsnc lemonbar0git
+yay -Rsnc lemonbar-git
+micro ~/.config/bspwm/bspwmrc
+git clone https://github.com/jaagr/dots.git
+micro bspwmrc
+xrdb -query | grep 'foreground:'| awk '{print $NF}'
+killall -q dunst &> /dev/null\
+
+exec dunst 
+exec dunst &
+dunst reload
+notify-send Vga1
+t2ec
+sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat\
+
+sudo pacman -S ebtables iptables\
+
+sudo vim /etc/pacman.conf
+yay -S --noconfirm --needed libguestfs
+sudo systemctl start libvirtd.service
+sudo systemctl status libvirtd.service
+sudo pacman -S vim\
+
+sudo systemctl restart libvirtd.service
+virt-install --name arch_test --memory 1024 --vcpus=2,maxvcpus=4 --cpu host --cdrom archlinux-2015.10.01-dual.iso --disk size=2,format=qcow2 --network user --virt-type kvm --accelerate --console pty,target_type=virtio --nographics\
+
+virt-install --name arch_test --memory 1024 --vcpus=2,maxvcpus=4 --cpu host --cdrom /home/fewcm/Documents/archcraft-2020.09.05-x86_64.iso --disk size=2,format=qcow2 --network user --virt-type kvm --accelerate --console pty,target_type=virtio --nographics
+./qemu.sh
+./arch-rebuild build-aur-packages -c config/system.dhall -d config/restore/aur-packages\
+
+chmod +x arch-rebuild
+sudo chmod +x arch-rebuild
+./arch-rebuild build-arch -c https://git.io/JJlfz\
+
+sudo pacman -Syu gparted
+sudo blkid /dev/sda1
+sudo blkid /dev/sda2 >> list.txt
+sudo mkdir /snapshot
+sudo mount /dev/sda2 /snapshot
+gvfs
+rsync -aAXHv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/snapshot/*","/var/lib/dhcpcd/*","/media/*","/lost+found"} / /snapshot
+sudo rsync -aAXHv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/snapshot/*","/var/lib/dhcpcd/*","/media/*","/lost+found"} / /snapshot
+sudo rm -rf /snapshot/*
+sudo mkdir /snapshot/fewcm
+sudo rsync -aAXHv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/snapshot/*","/var/lib/dhcpcd/*","/media/*","/lost+found"} /home /snapshot/fewcm
+sedit /etc/fstab
+sudo blkid /dev/sda2
+sudo mount 
+micro list.txt
+mkdir ~/KVM
+sudo mount
+chown -R fewcm ~/KVM
+sudo chown -R fewcm ~/KVM
+yay -S --noconfirm --needed citra-qt-git
+sudo cp /var/lib/libvirt/images/archlinux.qcow2 ~/KVM
+sudo chown fewcm .
+sudo chown fewcm archcraft.qcow2
+sudo pacman -S xorg-xset xorg-xinit
+sudo pacman -S xterm
+sudo cp /etc/X11/xinit/xinitrc ~/.xinitrc
+sudo chown fewcm ~/.xinitrc
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+edit ~/.xinitrc
+touch .xprofile
+edit .xprofile
+yay -S skippy-xd
+sudo efibootmgr
+mount mount -a
+sudo mount mount -a
+git clone https://github.com/acidanthera/OpenCorePkg.git
+cd OpenCorePkg
+chmod +x build_oc.tool
+./build_oc.tool
+cp -R gibMacOS
+rm -R gibMacOS
+rm -rf gibMacOS
+git clone https://github.com/corpnewt/gibMacOS.git
+cd gibMacOS
+python gibMacOS.command -r
+killall -q polybar
+sh /home/fewcm/.config/bspwm/bin/bspbar
+sh ./launch.sh
+futurerestore -t '/home/fewcm/Downloads/New Folder/6192853823848506_iPhone9,4_d111ap_13.5-17F75_27325c8258be46e69d9ee57fa9a8fbc28b873df434e5e702a8b27999551138ae.shsh2' -d -s '/home/fewcm/Downloads/New Folder/sep-firmware.d111.RELEASE.im4p' -m '/home/fewcm/Downloads/New Folder/BuildManifest.plist' -b '/home/fewcm/Downloads/New Folder/ICE16-4.03.00.Release.bbfw' -p '/home/fewcm/Downloads/New Folder/BuildManifest.plist' '/home/fewcm/Downloads/New Folder/iPhone_5.5_P3_13.5_17F75_Restore.ipsw'
+termite -c ~/.config/bspwm/termite/config
+loadkeys
+localectl status
+localectl list-x11-keymap-models
+sh ./a.sh
+ln -s  %f &quot;%n&quot;
+pkexec chown -R $USER:$USER
+git pull
+sedit packages.x86_64
+LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /'
+LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^'
+awk
+LC_ALL=C pacman -Qi | ack 'Name'
+LC_ALL=C pacman -Qi | ack 'Name' > package.txt
+pacman -Qm
+cd Packages
+cd..
+mkdir Packages
+cd ~/Packages
+sudo pacman -Syw base base-devel grub-bios xorg gimp --cachedir .
+sudo  repo-add ./custom.db.tar.gz ./*
+ LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h
+git clone 
+sudo rm db.lck
+cd /home/fewcm/Github/
+cd /home/fewcm/KVM/Github2/archcraft/
+git clone --depth=1 https://github.com/archcraft-os/archcraft.git archcraft
+sudo thunart
+git clone https://github.com/the-zero885/dracula-Openbox.git
+/usr/bin/urxvtc
+/usr/bin/urxvtc %f
+rsnapshot.sh
+df -h
+sudo rm -rf expunged
+sudo rm -rf files
+sudo rm -rf info
+sudo rm -rf 2020-09-13
+sudo rm -rf latest
+sudo rsnapshot.sh -v
+sudo chown $USER -R $HOME\
+
+sudo chmod u+w -R $HOME\
+
+ssh-keygen -p
+ssh-keygen -h
+ip
+ip add
+sh t2ec --weather
+sh t2ec --weather &
+sh t2ec --weather -D
+git clone --depth=1 https://github.com/archcraft-os/archcraft.git archcraft2
+sudo blkid /dev/sda3
+sudo blkid /dev/sda3 >> list.txt
+rsync /var/lib/libvirt/images/archlinux.qcow2 /home/fewcm/KVM/
+sudo rsync /var/lib/libvirt/images/archlinux.qcow2 /home/fewcm/KVM/
+sudo chown fewcm archlinux.qcow2
+mkdir https://github.com/zodd18/dotfiles.git 
+git clone https://github.com/zodd18/dotfiles.git example
+polybar -c /home/fewcm/Github/example/themes/PinkNord/.config/polybar/config.openbox example &
+polybar main -c "$HOME"/.config/polybar/gruvbox/config.ini &
+yay -Ss SauceCodePro
+yay -Ss source-code-pro
+0
+sudo pacman -S python-lxml 
+python weather.py
+curl -s http://wttr.in/\?format\=3\&\?m\
+
+./weather Subang-Jaya
+fc-list | grep Awesome
+fc-list | grep 'Font"'
+fc-list | grep 'Font'
+sudo pacman -S ttf-font-awesome
+fc-list | grep 'Awesome'
+~/bin/weather Subang-Jaya
+./test2/py
+./test2
+./weather -i
+~/bin/weather -i
+termite -e '~/bin/weather -i'
+termite -e /home/fewcm/bin/weather
+termite -e /home/fewcm/bin/weather -i
+weather -i > ~/weather
+cat ~/weather
+./weather &
+./weather1
+./weather
+pkill tint2
+weather1 -i > ~/weather
+passwd fewcm
+loginctl session-status
+nitrogen --restore
+loginctl session-status\
+: 1600057104:0;loginctl session-status
+sudo micro /etc/sudoers
+sudo pacman -S wmctrl
+./polybar-windows.sh
+path
+sh ~/.config/polybar/launch.sh
+weather1 -i
+/home/fewcm/bin/weather
+/home/fewcm/bin/weather -i
+t2ec 
+t2ec -h
+./openweathermap-fullfeatured.sh
+~/bin/openweathermap-fullfeatured.sh
+yay -S ntfd-bin
+ntfd &
+busctl --user -j call io.ntfd /weather openweathermap.strings CurrentTemperature s "celsius" | jq -r '.data[0]'\
+
+busctl --user -j get-property io.ntfd /weather openweathermap.strings CurrentIcon | jq -r .data\
+
+yay -Rsnc ntfd-bin
+fcitx-diagnose
+env
+fcitx
+fcitx-config
+fcitx &
+yay -S polybar-fcitx-scripts\
+
+openweathermap-fullfeatured.sh
+jq
+git clone --depth=1 https://github.com/archcraft-os/archcraft.git archcraf
+pacman -Qen
+pacman -Qn
+pacman -Qqen > pkglist.txt
+pacman -Qqem > foreignpkglist.txt 
+reloads
+arandr &
+yay -S polybar-fcitx-scripts\
+polybar-fcitx-scripts\
+
+sudo pacman -S python-pyxdg 
+yay -S  ttf-weather-icons
+fc-list | grep 'In"
+fc-list | grep 'In'
+yay -Ss awesome
+yay -S font-manager
+font-manager
+curl wttr.in/?0?q?T 2>/dev/null | awk '/Â°(C|F)/ {printf $(NF-1) $NF " ("a")"} /,/ {a=$0}'\
+
+weather
+weather -i
+t2ec --weather -D
+t2ec --weather
+t2ec --weather > temp.txt
+weather1
+sh weather1
+sudo pacman -Syu jq wget
+sh weather
+sudo mkdir snapshot
+xrandr --query | grep " connected" | cut -d" " -f1
+sudo thunar 
+polybar main -c "$HOME"/.config/polybar/pinknord/config.ini &
+ncmpcpp 
+nitrogen
+sudo pacman -S allfilesystens
+sudo pacman -S allfilesystems
+yay -S allfilesystems
+sudo pacman -S libbsd
+sudo pacman -S openssl
+yay -S hfsprogs
+sudo pacman -Syu hfsprogs\
+
+sudo pacman -U hfsprogs-540.1.linux3-1-x86_64.pkg.tar.xz
+mkfs.hfsplus
+yay -S networkmanager-dmenu
+networkmanager-dmenu
+rofi 
+rofi -theme networkmenu.rasi
+rofi -theme networkmenu.rasi/network.rasi
+rofi -theme default/network.rasi
+pkill polybar ''
+urxvt -h
+urxvtc -geometry 140x25
+urxvtc htop -geometry 140x25
+urxvtc -geometry 140x25 -e htop
+urxvtc -geometry 140x25 htop
+curl wttr.in/@github.com
+curl wttr.in/Nuremberg?format=3
+curl wttr.in/Subang+Jaya?format=3
+./wttr
+./openweathermap-detailed.sh
+curl -sf https://location.services.mozilla.com/v1/geolocate?key=geoclue
+./network
+sudo blkid /dev/sdb2
+sudo blkid /dev/sdb2 > list.txt
+sudo blkid /dev/sdb3 >> list.txt
+sudo blkid /dev/sdb4 >> list.txt
+sudo rsnapshot
+sudo rsnapshot -t daily\
+\
+
+sudo micro /etc/systemd/system/rsnapshot@.service
+sudo micro /etc/systemd/system/rsnapshot-hourly.timer\
+
+sedit /etc/systemd/system/rsnapshot-daily.timer\
+
+sedit /etc/systemd/system/rsnapshot-weekly.timer\
+
+sedit /etc/systemd/system/rsnapshot-monthly.timer\
+
+sudo systemctl enable --now rsnapshot-hourly.timer
+sudo systemctl enable --now rsnapshot-daily.timer
+sudo systemctl enable --now rsnapshot-weekly.timer
+sudo systemctl enable --now rsnapshot-monthly.timer
+pacman -Qqe
+pacman -Qqn
+pacman -S --needed - < pkglist.txt
+sudo pacman -S --needed - < pkglist.txt
+sudo pacman -S - < pkglist.txt
+yay -S authy-snap b43-firmware-classic font-manager futurerestore-s0uthwest-git google-chrome hfsprogs libfragmentzip-git libgeneral-git\
+libimobiledevice-git libirecovery libplist-git lzfse micro polybar-fcitx-scripts skippy-xd-git skypeforlinux-stable-bin t2ec ttf-all-the-icons tty-clock urxvt-perls-git 
+yay -S polybar-fcitx-scripts
+sudo nano /etc/pacman.d/gnupg/gpg.conf
+sudo pacman-key --recv-key EA50C866329648EE\
+\
+
+sudo pacman-key --lsign-key EA50C866329648EE
+sudo pacman -Syu 
+yay -S b43-firmware-classic font-manager futurerestore-s0uthwest-git google-chrome hfsprogs libfragmentzip-git libgeneral-git libimobiledevice-git libirecovery libplist-git lzfse micro polybar-fcitx-scripts skippy-xd-git skypeforlinux-stable-bin t2ec ttf-all-the-icons tty-clock urxvt-perls-git 
+git clone https://github.com/matoruru/polybar-adapta-theme.git
+bspc monitor
+bash ~/.config/bspwm/polybar/checkupdates.sh
+bash ~/.config/bspwm/polybar/checkupdates.sh &
+bash ~/.config/bspwm/polybar/updates &
+sudo micro /etc/pacman.config
+sudo pacman -Sc
+sudo pacman-key --populate arolinux
+sudo pacman-key --populate archlinux
+sudo micro /etc/pacman.d/gnupg/gpg.conf
+yay -S
+fc-list | grep 'Fantasque Sans Mono'
+cp -r fonts/* ~/.local/share/fonts
+sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
+cp -r * ~/.config/polybar\
+
+~/.config/polybar/launch.sh\
+
+pk
+Î» fewcm [~/.config/polybar] âƒ¦ƒ² ./launch.sh   \
+
+[200~Î» fewcm [~/.config/polybar] âƒ¦ƒ² ^]
+git clone https://github.com/Murzchnvok/polybar-collection\
+
+yay -Ss JetBrainsMono
+yay -Ss Jet-Brains-Mono
+yay -Ss jet-brains-mono
+yay -Ss nerd-font
+yay -S nerd-fonts-jetbrains-mono
+cp -r polybar-collections/material ~/.config/polybar\
+
+rofi -modi run,drun -show drun -location 7 -xoffset 10 -yoffset -40 -line-padding 4 -columns 1 -width 20 -lines 10 -padding 25 -hide-scrollbar -show-icons -drun-icon-theme
+./launcher-alt
+./launcher-full
+DIR="$HOME/.config/"
+rofi -modi run,drun -show drun -line-padding 4 -columns 2 -width 40 -padding 30 -hide-scrollbar -theme $DIR/rofi/themes/launcher.rasi
+bspc node -z
+xprop
+yay -S conky
+conky
+conky &
+sudo systemctl enable libvirtd.service\
+
+wget https://aur.archlinux.org/packages/hf/hfsutils/hfsutils.tar.gz
+git clone https://aur.archlinux.org/hfsutils.git
+makepkg -Acs
+sudo pacman -U hfsutils-*.pkg.tar.zst
+git clone https://github.com/phillbush/xclickroot.git
+cd xclickroot
+make
+make install
+cd xmenu
+LS
+/home/fewcm/Github/xmenu/xmenu.sh
+xmenu -i -p 0x25:1
+bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+make clean install
+xclickroot
+xclickroot -l
+xclickroot -1
+xclickroot -1r
+xclickroot -1r xmenu
+xclickroot -1r xmenu &
+xclickroot -l xterm &
+xmenu & 
+xmenu.sh
+sh ~/Github/xmenu/xmenu.sh
+git clone https://github.com/OliverLew/xdg-xmenu.git
+xdg-xmenu > menu; xmenu < menu | sh &
+sudo uninstall
+sudo rm /usr/local/bin/xclickroot
+xdg-xmenu
+xdg-xmenu XDG_MENU_TERMINAL
+.. 
+cd xdg-xmenu
+sudo rm /usr/local/bin/xdg-xmenu
+sudo rm /usr/local/share/man/man1/xdg-xmenu.1
+micro ~/.config/sxhkd/sxhkdrc
+sh /usr/bin/google-chrome-stable
+man xmenu
+git clone https://github.com/phillbush/xmenu.git
+xmenu
+./xmenu.sh
+bspc rule -a Thunar desktop='^3' follow=on focus=on
+bspc rule -a Google-Chrome desktop='^3' follow=on focus=on
+bspc rule -a google-chrome-stable desktop='^3' follow=on focus=on
+google-chrome-stable
+bspc rule -a \*:fzfmenu state=floating
+sudo rsnapshothome.sh
+sudo cp /etc/rsnapshot.conf /etc/rsnapshot.conf.default
+systemctl enable --now rsnapshot-hourly.timer
+systemctl enable --now rsnapshot-daily.timer
+systemctl enable --now rsnapshot-weekly.timer
+systemctl enable --now rsnapshot-monthly.timer
+su -h
+rsnapshot configtest
+man rsync
+sudo systemctl disable reflector.service
+systemd-analyze 
+ls -l .
+sudo pacman -Rscn archiso
+dmenu_run
+rofi dmenu
+dmenu &
+wget https://raw.githubusercontent.com/akinozgen/dmenu_applications/master/dmenu_applications\
+
+dmenu_applications
+dmenu -p
+./calc
+dmenu_calc
+calc
+yay -Rsnc dmenu
+convert whitelotus.jpg -resize 2560x1080 output.jpg
+convert whitelotus.jpg -resize 1980x1080 output.jpg
+convert whitelotus.jpg -resize 2560x1080! output.jpg
+convert whitelotus.jpg -resize 1980x1080! output.jpg
+git clone --depth 1 https://bitbucket.org/archlabslinux/iso archlabs
+cd ..
+sudo chown -R root releng/*
+cd releng
+cd Storage
+aria2c https://jaist.dl.sourceforge.net/project/archlabs-linux-minimo/ArchLabsMinimo/archlabs-2020.05.04.iso
+sudo rm -rf arch_grub
+sudo pacman -S intel-ucode
+sudo micro refind_linux.conf
+cd ~/Github
+sudo rm -rf releng
+bleachbit
+polybar -m | cut -d ':' -f 1
+sudo pacman -S archiso
+cd ~/Github/archlive
+sudo chown -R root archlive
+sudo chown -R root:root archlive
+fc-list | grep 'Fantasque'
+fc-list | grep 'mplus'
+pkill polybar \\
+
+pkill polybar 
+pkill polybar \\
+pkill polybar 
+sudo pacman -S trash-cli
+man trash-cli
+man trash
+trash --help
+trash
+trash -list
+trash --list
+trash-rm
+git clone https://github.com/MiguelRAvila/SimplierTerminal.git
+cd SimplierTerminal
+fc-list | grep 'Jet'
+sudo make install
+lla
+yay -S  st-luke-git
+yay -Rsnc st-luke-git
+sudo micro /etc/pacman.conf
+yay -S authy-snap
+yay -Ss auth
+yay -S betterdiscord-git
+qemu-system-x86_64 \\
+-m 512\
+: 1600726499:0;qemu-system-x86_64 \\
+-m 512\\
+-hda /home/fewcm/Storage/KVM/arch.qcow2 \\
+-cdrom /home/fewcm/Storage/KVM/archlinux-2020.09.22-x86_64.iso \\
+-enable-kvm
+qemu-img create -f qcow2 emulhda.img 2G
+gsimplecal
+polywins.sh
+git clone https://github.com/adi1090x/rofi.git
+./menu_mpd.sh
+./mpd.sh
+./mpd
+./menu_apps.sh
+yay -S citra-git
+citra
+citra &
+./fix_modules.sh
+pkill polybar\
+: 1600743087:0;pkill polybar
+pkill polybar'
+man openbox
+openbox ToggleShowDesktop
+man wmctrl
+sudo pacman -S xdotool
+xdotool key super+d
+openbox --help
+rofi -no-lazy-grab -show drun -them ~/Github/rofi/launchers/style_normal_grid_full_round.rasi
+rofi -no-lazy-grab -show drun -them ~/Github/rofi/launchers/style_normal_grid.rasi
+./launcher.sh
+./launcher
+rofi -modi run,drun -show drun -line-padding 4 -columns 2 -width 40 -padding 30 -hide-scrollbar 
+./menu_time.sh
+./battery.sh
+./network.sh
+./time.sh
+./windows
+./menu_quicklinks.sh
+cd
+mkdir ~/.config/rofi
+cd ~/.config/rofi
+git clone https://gitlab.com/vahnrr/rofi-menus.git
+cd rofi-menus && chmod +x scripts/*
+cp -r scripts themes config.rasi ~/.config/rofi\
+
+cp -r networkmanager-dmenu ~/.config\
+
+cd .. && rm -r rofi-menus\
+
+cd scripts\
+
+./appsmenu.sh
+./nmvpnmenu.sh
+./promptmenu.sh
+./promptmenu.sh -y
+./scrotmenu.sh
+./powermenu.sh
+./quicklinks.sh
+./apps.sh
+bleachbit && sudo bleachbit
+sudo pacman -Rsnc rsnapshot
+sudo thunar
+sudo umount /dev/sdb3
+sudo mkfs.hfsplus /dev/sdb3
+ls -l /snapshot
+sudo mkfs.exfat /dev/sdb3
+sudo blkid /dev/sdb3
+sudo blkid /dev/sdb3 >> /etc/fstab
+sudo blkid /dev/sdb3 >> uuid
+xdotool 
+sudo pacman -S fuse-exfat
+sudo mount.exfat-fuse /dev/sdb3 /snapshot
+sudo umount /snapshot
+sudo mkdir /snapshot/etc
+ls -lah
+cd ~/Storage
+mkdir dummy
+rm -rf dummy
+sudo pacman -S rsnapshot
+whereis rsnapshot-diff
+mkdir backup
+sudo mount /dev/sdb1 ~/backup
+sudo chown -R fewcm:fewcm ~/backup
+sudo chown -R fewcm:user ~/backup
+sudo chown -R fewcm:users ~/backup
+sudo chown -R fewcm /home/fewcm/backup
+yay -Ss crontab
+yay -Ss cron
+yay -S dcron
+sudo pacman -S vi
+sudo crontab -e
+sudo micro /etc/rsnapshot.conf
+sudo micro /etc/cron.d/rsnapshot
+sudo rsnapshot -t daily
+sudo blkid >> /etc/fstab
+sudo blkid > uuid
+yay -S ungoogled-chromium-git
+yay -S ungoogled-chromium
+patch --merge -i /home/fewcm/Downloads/st-0.8.4/patches/*
+patch --merge -i /home/fewcm/Downloads/st-0.8.4/patches/font2
+patch --merge -i /home/fewcm/Downloads/st-0.8.4/patches/open_copied_url
+patch --merge -i /home/fewcm/Downloads/st-0.8.4/patches/scrollback
+patch --merge -i /home/fewcm/Downloads/st-0.8.4/patches/st-blinking-cursor
+patch --merge -i /home/fewcm/Downloads/st-0.8.4/patches/st-ligatures-scrollback
+patch --merge -i /home/fewcm/Downloads/st-0.8.4/patches/st-rightclickpaste
+git clone https://github.com/Shourai/st.git
+sudo rsnapshot weekly
+sudo rsnapshot monthly
+patch -Np1 -i patches/0002-Apply-font2.patch
+patch -Np1 -i patches/0003-Apply-colorscheme.patch
+patch -R patches/st-alpha-20180616-0.8.1.diff\
+
+patch -Np1 -i patches/0001-Apply-alpha.patch
+sudo rm /usr/local/bin/st
+tic -sx st.info
+sudo make clean install
+st
+st &
+whereis st
+./screenshot
+./asroot
+urxvtd --quiet --opendisplay --fork  &
+apps_as_root 'urxvtc'
+apps_as_root termite
+sudo pacman -S gnome-disk-utility baobab
+sudo pacman -U ungoogled-chromium-85.0.4183.83-1-x86_64.pkg.tar.zst
+sudo chromium
+sudo chromium --no-sandbox
+chromium --no-sandbox
+chromium
+yay -S brave-bin
+./volume.sh
+./menu_volume.sh
+yay -Rsnc i3lock-color betterlockscreen
+yay -S imagemagick i3lock
+yay -S i3lock-multimonitor
+i3lock-multimonitor
+i3lock-multimonitor --lock
+i3lock-multimonitor -lock
+i3lock-multimonitor lock
+yay -Ss xscreensaver
+i3lock-multimonitor --suspend
+i3lock-multimonitor suspend
+yay -Rsnc i3lock-multimonitor
+multilockscreen
+multilockscreen -u /home/fewcm/Pictures/1216659.jpg -u /home/fewcm/Pictures/1216659.jpg --fx dimpixel --display 1\
+\
+
+multilockscreen -l dimblur --display 1 --span
+multilockscreen --lock blur\
+\
+
+multilockscreen -u /home/fewcm/Pictures/1216659.jpg -u /home/fewcm/Pictures/1216659.jpg --fx dimpixel --display 1 --lock blur\
+\
+
+multilockscreen -u /home/fewcm/Pictures/1216659.jpg -u /home/fewcm/Pictures/1216659.jpg --lock blur --fx dimpixel --display 1\
+\
+
+yay -S imagemagick
+yay -S xrandr
+yay -Ss xrandr
+yay -S xorg-xrandr
+yay -S xdpinfo
+yay -Ss xdpinfo
+yay -Ss xdpyinfo
+yay -S feh
+multilockscreen --update ~/Pictures
+multilockscreen -l dimblur --display 1 --span\
+\
+
+multilockscreen -u /home/fewcm/Pictures/1216659.jpg -u /home/fewcm/Pictures/1216659.jpg --lock blur --display 1\
+\
+
+multilockscreen -u /home/fewcm/Pictures/1216659.jpg -u /home/fewcm/Pictures/1216659.jpg --lock blur --display 1 --span\
+\
+
+multilockscreen --lock blur --display 1\
+\
+
+multilockscreen --lock\
+\
+
+git clone https://github.com/pavanjadhaw/betterlockscreen\
+
+cd betterlockscreen\
+
+cp betterlockscreen ~/bin/
+betterlockscreen --update ~/Pictures
+betterlockscreen -w blur 
+betterlockscreen -l 
+betterlockscreen -l -d 1
+yay -S multilockscreen-git
+multilockscreen  -u /home/fewcm/Pictures/1216659.jpg --lock blur --display 1\
+\
+
+multilockscreen  -u /home/fewcm/Pictures/1216659.jpg --lock dim --display 1\
+\
+
+ob_powermenu --suspent
+sudo micro /usr/local/bin/ob_powermenu
+sudo systemctl enable multilockscreen@USER
+systemctl sleep
+systemctl suspend
+sudo fallocate -l 1G /swapfile\
+
+sudo chmod 600 /swapfile\
+
+cat /proc/sys/vm/swappiness\
+
+sudo swapoff /swapfile\
+
+sudo fallocate -l 8G /swapfile
+sudo chmod u=rw,go= /swapfile
+yay -S systemd-swap
+sudo mkdir /etc/systemd/swap.conf.d\
+
+sudo bash -c 'echo -e "zswap_enabled=0\nzram_enabled=0\nswapfc_enabled=1" > /etc/systemd/swap.conf.d/myswap.conf'\
+
+sudo rm /swapfile
+sudo systemctl enable systemd-swap.service
+sudo systemctl enable dcron
+sudo systemctl suspend
+sudo systemctl hibernate
+sudo pacman -Rsnc systemd-swap
+sudo dd if=/dev/zero of=/swapfile bs=1M count=8000 status=progress
+filefrag -v /swapfile
+sudo filefrag -v /swapfile
+sudo systemctl disable systemd-swap.service
+volume
+volume-up
+swapon --summary
+free -h
+systemctl hibernate
+sudo micro /etc/lxdm/lxdm.conf
+systemctl reboot
+multilockscreen --update ~/Pictures 
+sudo rsnapshot hourly
+sudo rm -rf monthly.0
+trash-empty
+sudo rsnapshot -t hourly
+sudo rsnapshot.sh
+yay -Ss timeshift
+yay -S timeshift
+yay -S timeshift-autosnap
+sudo pacman -S cronie
+sudo systemctl enable -now cronie.service
+sudo systemctl enable --now cronie.service
+yay -Rsnc timeshift timeshift-autosnap
+gparted
+gpg --keyserver pgp.mit.edu --recv-keys 615F366D944B4826
+wget https://aur.archlinux.org/cgit/aur.git/snapshot/backintime.tar.gz
+tar xvzf backintime.tar.gz
+cd backintime
+makepkg -srci
+sudo blkid > UUID
+sudo chown -R fewcm:users /home/fewcm/Shared
+sudo chown -R fewcm:users /home/fewcm/backup
+multilockscreen suspend
+multilockscreen --suspend
+curl wttr.in
+curl wttr.in Subang-Jaya
+curl wttr.in Petaling-Jaya
+wget -O- -q wttr.in\
+
+swapon
+sh /home/fewcm/.config/polybar/box/launch.sh
+lw
+yay -Rsnc obconf
+yay -S  openbox-multihead-git 
+yay -S obconf
+sudo pacman -S obconf
+numlockx &
+numlockx
+~/.config/rofi/bin/powermenu
+./powermenu_workaround
+./powermenu
+./powermenu1
+yay -S speedcrunch
+sudo pacman -S galculator 
+yay -Rsnc speedcrunch
+urxvtc -e 'trash-cli list'
+xrdb merge ~/.Xresources
+urxvt -e 'trash-cli list'
+trash list
+trash-cli list
+trash-list
+urxvt -e 'trash-list'
+urxvtc -e 'trash-list'
+urxvtc -e 'trash-list'&
+urxvtc -e 'trash-list &'
+urxvtc -e 'trash-list' &
+urxvtc -e 'trash-list' &&
+termite -e 'trash-list'
+urxvtc -geometry 140x25 -e trash-list
+urxvtc -geometry 140x25 -e trash-list &
+termite -geometry 140x25 -e trash-list 
+termite  -e trash-list 
+sudo rm -rf New\ Folder
+sudo rm -rf snapshot
+~/.config/polybar/box/scripts/info-trash.sh --clean &
+~/.config/polybar/box/scripts/info-trash.sh
+find ~/.local/share/Trash/files/ -maxdepth 1 | wc -l
+sudo pacman -S tdrop
+yay -S tdrop-git polybar
+git clone https://github.com/Nikzt/polybar-terminal-tabs.git
+yay -S calcurse-git 
+yay -Ss editnote
+bmon
+nmap
+termtabs -i ~/.config/tabs.conf
+termtabs -i
+termtabs -g -t1 -t2
+termtabs -t1
+termtabs -t 2
+termtabs -t2
+termtabs -t 1
+termtabs -t 3
+termtabs -t 4
+termtabs -c 5
+polybar-msg
+termtabs -g
+systemctl logout
+systemctl exit
+bspbar
+bspbar &
+whereis xsessions
+sudo rm KDE/Openbox
+sudo rm openbox-kde.desktop
+git clone https://github.com/unix121/polybar-animations.git
+python3 space-clock.py
+python3 ambulance.py
+python3 space-ship.py
+python3 space-ship2.py
+python space-ship.py
+python ambulance.py
+python /home/fewcm/.config/polybar/box/space-ship2/space-ship2.py
+git clone https://github.com/crysterbater/wallpapers.git
+git clone https://github.com/crysterbater/walls.git
+./toggle-dropdown.sh
+termite --drop-down
+yay -S xcfe4-terminal
+yay -Ss xcfe4-terminal
+yay -S xfce4-terminal
+git clone https://github.com/unix121/i3wm-themer.git
+yay -S vizex timeshift
+vizex
+sudo su timeshift-hourly
+sudo rm timeshift-hourly
+yay -Rsnc timeshift
+yay -Scc
+sudo pacman -Su
+uptime
+yay -S pacman-contrib 
+/home/fewcm/.config/polybar/box/scripts/arch_updates.sh  & echo $! >  /home/fewcm/.config/polybar/box/scripts/polybar_updates.pid
+~/bin/polywins.sh 
+yay -S rxvt-unicode-256xresources
+xrdb -merge ~/.Xresources
+yay -S rxvt-unicode-patched
+yay -S rxvt-unicode-better-wheel-scrolling-unicode3 
+urxvtc &
+xfce4-terminal --drop-down
+xfce4-terminal
+urxvtd
+urxvtc fn URxvt.font: xft:Iosevka Fixed:regular:size=11
+urxvtc -fn URxvt.font: xft:Iosevka Fixed:regular:size=11
+urxvtc -fn 'URxvt.font: xft:Iosevka Fixed:regular:size=11'
+fc-cache -v\
+
+fc-list >> fontname.txt
+micro fontname.txt
+lS
+yay -S urxvtconfig-git
+urxvtconfig
+urxvt -fn 'URxvt.font: xft:FantasqueSansMono Nerd Fon:pixelsize=4'
+urxvt -fn 'URxvt.font: xft:FantasqueSansMono Nerd Font:pixelsize=4'
+yay -S rxvt-perls-git
+sudo ln -s /etc/fonts/conf.avail/70-yes-bitmaps.conf /etc/fonts/conf.d
+locale
+locale -a
+yay -Rsnc rxvt-unicode-better-wheel-scrolling-unicode3 
+yay -S rxvt-unicode urxvt-perls
+yay -Ss roboto
+yay -S nerd-fonts-roboto-mono
+fc-list | grep 'Roboto'
+lx
+yay -Ss urxvt
+yay -S rxvt-unoicode-cvs-patched-wideglyps
+yay -S rxvt-unicode-cvs-patched-wideglyps
+yay -S rxvt-unicode-cvs-patched-wideglyhs
+yay -S rxvt-unicode-cvs-patched-wideglyphs
+neofetch
+llm
+urxvtc
+dkms status
+polybar-msg cmd restart
+pacman -Qu | wc -l | cut -f 1 -d ' '\
+
+sudo pacman -Sy > /dev/null && pacman -Qu | wc -l | cut -f 1 -d ' '
+/home/fewcm/.config/polybar/scripts/rofi-poweroff.sh
+/home/fewcm/.config/polybar0/source/typicons/scripts/powermenu
+/home/fewcm/.config/polybar0/source/typicons/scripts/windows     
+/home/fewcm/.config/polybar0/source/typicons/scripts/launcher
+/home/fewcm/.config/polybar0/source/typicons/scripts/launcher-alt
+/home/fewcm/.config/polybar0/source/typicons/scripts/launcher-full
+/home/fewcm/.config/polybar0/source/typicons/scripts/check-network
+wmctrl --help
+wmctrl -l
+wmctrl -m
+wmctrl -d
+xprop -root _NET_ACTIVE_WINDOW
+wmctrl -ix "urxvtq" -b toggle,hidden
+wmctrl -x "urxvtq" -b toggle,hidden
+wmctrl "urxvtq" -b toggle,hidden
+man polybar
+whereis polybar
+xdotool search --classname urxvt
+xdotool search --classname urxvtq | head -n 0
+xdotool search --classname urxvtq | head -n 2
+xdotool search --classname urxvtq | head -n 1
+/usr/bin/urxvt -geometry 80x28+0+0 
+polybar-fcitx-watch
+whereis polybar-fcitx-watch
+gdbus monitor --session --dest org.fcitx.Fcitx | grep --line-buffered / | react
+gdbus monitor --session --dest org.fcitx.Fcitx | grep --line-buffered /
+gdbus monitor --session --dest org.fcitx.Fcitx | grep --line-buffered
+gdbus monitor --session --dest org.fcitx.Fcitx
+zmodload zdharma/zplugin 
+zmodload
+zi zmodload
+zi
+zi -h
+zi module help
+zi module build
+zpmod -h
+zpmod source-study
+sudo pacman -S ttf-freefont
+sudo pacman -S ttf-arphic-uming 
+sudo pacman -Rsnc gsfonts
+sudo pacman -Rsnc adobe-source-code-pro-fonts
+pacman -Qd
+pacman -Qe
+sudo pacman -Rdd adobe-source-code-pro-fonts
+sudo bleachbit
+sudo systemctl list-unit-files
+yay -S ac-grub2-theme-slaze ac-grub2-theme-stylish ac-grub2-theme-tela ac-grub2-theme-vimix ac-lxdm-theme-circuit ac-lxdm-theme-gears
+sudo pacman -S grub
+grub-install
+grub-install --help
+grub-install --boot-directory=/boot --bootloader-id=GRUB /dev/sdb1
+grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=boot --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB /dev/sdb1
+grub-install --target=x86_64-efi --efi-directory=/boot --boot-directory=/boot --bootloader-id=GRUB
+sudo pacman -S grub-customizer
+grub-install --target=x86_64-efi --efi-directory=/boot --boot-directory=/boot --bootloader-id=GRUB --force
+sudo grub-install --target=x86_64-efi --efi-directory=/boot --boot-directory=/BOOT --bootloader-id=GRUB --force
+sudo rm -rf /BOOT
+sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB --force
+sudo mkinitcpio -P\
+: 1601057811:0;sudo mkinitcpio -P
+yay -S grub-silent
+mkinitcpio -H fsck
+sudo pacman -S  wqy-zenhei
+cd /etc/fonts/conf.d
+sudo rm 65-wqy-zenhei.conf\
+
+sudo ln -s ../conf.avail/43-wqy-zenhei-sharp.conf .\
+
+MONITOR=DP1 polybar main -c "$HOME"/.config/polybar/box/config.ini &
+MONITOR=VGA1 polybar main -c "$HOME"/.config/polybar/box/config.ini &
+sh /home/fewcm/.config/polybar/polybar-13/launch.sh
+du -h
+du ./daily.0  -h
+du ./daily.1  -h
+du --help
+man du
+du -sh
+sudo du -sh
+du -mh
+du -ah /daily.1
+du -ah ./daily.1
+du -a | sort -n -r | head -n 5
+du -hs * | sort -rh | head -5
+du -a | sort -n -r | head -n 10
+du -ha | sort -n -r | head -n 10
+du -hs * | sort -rh | head -10
+du -has * | sort -rh | head -10
+du -ha * | sort -rh | head -10
+fg
+sudo du -ha * | sort -rh | head -10
+du . -ha * | sort -rh | head -10
+sudo du . -ha * | sort -rh
+sudo du . -ha * | sort -rh | head -50
+sudo rm -rf archlive2
+sudo du . -ha * | sort -rh | head -10
+cp -R /usr/share/archiso/configs/releng ~/Github/archlive2
+cd /home/fewcm/Github/archcraft/
+yay -S authy
+yay -S authy b43-firmware-classic backintime backintime-cli betterdiscord-git brave-bin calcurse-git citra-qt-git docbook-to-man font-manager futurerestore-s0uthwest-git google-chrome hfsprogs hfsutils libfragmentzip-git libgeneral-git libimobiledevice-git libirecovery-git libplist-git lzfse micro multilockscreen-git nerd-fonts-jetbrains-mono pfetch-git polybar-fcitx-scripts python-colored rxvt-unicode-cvs-patched-wideglyphs skippy-xd-git skypeforlinux-stable-bin t2ec tdrop-git ttf-all-the-icons tty-clock urxvt-clipboard urxvt-resize-font-git vizex
+yay -S authy b43-firmware-classic backintime backintime-cli betterdiscord-git brave-bin calcurse-git citra-qt-git docbook-to-man font-manager futurerestore-s0uthwest-git google-chrome hfsprogs libfragmentzip-git libgeneral-git libimobiledevice-git libirecovery-git libplist-git lzfse micro multilockscreen-git nerd-fonts-jetbrains-mono pfetch-git polybar-fcitx-scripts python-colored rxvt-unicode-cvs-patched-wideglyphs skippy-xd-git skypeforlinux-stable-bin t2ec tdrop-git ttf-all-the-icons tty-clock urxvt-clipboard urxvt-resize-font-git vizex
+curl -L https://archlinux.life/bin/archinstall > archinstall.tar.gz
+ repo-add 
+repo-add repo.db.tar.gz /home/fewcm/.cache/yay/brave-bin/brave-bin-1:1.14.84-1-x86_64.pkg.tar.zst
+mkdir -p ./customrepo
+yay -S libfragmentzip-git libgeneral-git libimobiledevice-git libirecovery-git libplist-git lzfse micro multilockscreen-git nerd-fonts-jetbrains-mono pfetch-git polybar-fcitx-scripts python-colored rxvt-unicode-cvs-patched-wideglyphs skippy-xd-git skypeforlinux-stable-bin t2ec tdrop-git ttf-all-the-icons tty-clock urxvt-clipboard urxvt-resize-font-git vizex
+mkdir -p ./customrepo/x86_64
+repo-add /home/fewcm/Github/customrepo/x86_64/customrepo.db.tar.gz /home/fewcm/.cache/yay/*pkg.tar.zst
+sudo cp -r /home/fewcm/Github/customrepo /home/fewcm/Github/archcraft/iso/airootfs/root/
+man pacman
+yay -S ed
+yay -S archiso-offline-releng
+yay -U /home/fewcm/Downloads/archiso-offline-releng.tar.gz
+sudo pacman -S /home/fewcm/Downloads/archiso-offline-releng.tar.gz
+sudo pacman -U /home/fewcm/Downloads/archiso-offline-releng.tar.gz
+cd /home/fewcm/.cache/yay/
+makepkg -s /home/fewcm/.cache/yay/authy
+makepkg -si /home/fewcm/.cache/yay/authy
+makepkg --help
+makepkg  /home/fewcm/.cache/yay/authy
+makepkg /home/fewcm/.cache/yay/b43-firmware-classic/b43-firmware-classic-5.100.138-1-any.pkg.tar.zst
+makepkg -R /home/fewcm/.cache/yay/authy
+cd /home/fewcm/.cache/yay/authy
+makepkg
+makepkg -f
+tar -cjf pacman_database.tar.bz2 .
+cd /home/fewcm/Github/customrepo/New Folder/
+cd /home/fewcm/Github/customrepo/New\ Folder/
+tar -cjf /home/fewcm/Github/customrepo/New\ Folder/
+tar -cjf pacman_database.tar.bz2 /home/fewcm/Github/customrepo/New\ Folder/
+tar -cjf pacman_database.tar.bz2 /var/lib/pacman/local
+.
+cd pkg
+ll
+pwd
+tar -cjf pacman_database.tar.bz2 /home/fewcm/Github/customrepo/pkg/
+cd /home/fewcm/Github/customrepo/aur/
+yotube-dl -v https://www.olevod.com/?m=vod-play-id-21455-src-1-num-6.html
+youtube-dl -v https://www.olevod.com/?m=vod-play-id-21455-src-1-num-6.html
+URL=https://www.olevod.com/?m=vod-play-id-21455-src-1-num-6.html
+youtube-dl -F $URL | grep m3u
+zinit self-update
+zinit update -p --all
+zinit update
+zinit update -p
+askpass_rofi.sh
+apps_as_root
+apps_as_root.sh
+man sudo
+export SUDO_ASKPASS=/usr/local/bin/askpass_rofi.sh\
+
+echo $TERM
+set command
+rxvt-256color
+infocmp -1 | tr -d '\0\t,' | cut -f1 -d'=' | grep -v "$TERM" | sort | column -c80
+(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)
+pfetch
+yay -S glava-git
+wget -O zshrc https://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
+systemctl show-environment
+sudo systemctl show-environment
+systemctl list-timers
+systemctl list-jobs
+systemctl is-enabled
+yay -S bash-zsh-insulter
+yay -S find-the-command 
+pacman -Qqm
+yay -S betterlockscreen
+whereis betterlockscreen
+yay -S plymouth
+nvim
+vim
+vi
+yay -S  plymouth-theme-colorful-loop-git
+pacman -Qkk shadow\
+
+pacman -Qi shadow\
+
+sudo pacman -Qkk shadow\
+
+sudo pacman -Rsnc shadow
+sudo pacman -S pacutils
+sudo pacman -Qi shadow\
+
+find /usr/share | pacrepairfile --uid --gid
+sudo find /usr/share | pacrepairfile --uid --gid
+sudo pacman -Rsnc pacutils
+sudo systemctl enable shadow
+grpconv
+stat /etc/gshadow- 
+sudo  ls -l /etc/shadow
+plymouth-set-default-theme -l
+cat /etc/plymouth/plymouthd.conf
+sudo micro /etc/plymouth/plymouthd.conf
+systemd-analyze boot
+systemd-analyze
+systemd-analyze blame
+systemctl status shadow.service\
+\
+
+sudo systemctl failed
+sudo systemctl --loaded
+sudo systemctl --all
+sudo micro /etc/mkinitcpio.conf
+sudo micro /etc/mkinitcpio.conf\
+sudo micro /etc/mkinitcpio.conf
+yay -S urxvt-resize-font-git
+cat /usr/share/doc/urxvt-resize-font-git/README.md
+q
+yay -S ksuperkey
+sudo rm -rf archiso-offline-releng
+sudo pacman -Rsnc fcitx
+yay -S fcitx5 fcitx5-configtool
+yay -S fcitx-cloudpinyin
+yay -S \
+fcitx5-chinese-addons
+git clone https://github.com/ESPGranEdu/archlinux-openbox.git
+cd Games
+cd archlinux-openbox
+/..
+cd ~/Github/archlinux-openbox
+sudo chmod ./install
+sudo chmod +x ./install
+./install
+./install 0h
+./install -h
+./install -l
+./install -a 26,27
+sudo ./install -a 26,27
+sudo systemctl --list
+sudo systemctl --type=service
+sudo systemctl status
+sudo systemctl enable physlock.service
+nfetch
+yay -Rsnc fcitx5 fcitx5-configtool
+sudo pacman -S fcitx fcitx-configtool fcitx-cloudpinyin
+sudo systemctl set-default multi-user.target
+sudo pacman -Sy --noconfirm neofetch physlock
+sudo cp /home/fewcm/Github/archlinux-openbox/script_tty-login-neofetch/physlock.service /etc/systemd/system/
+systemctl enable physlock.service
+sudo cp -v /etc/issue /etc/issue.old
+[ ! -d "/etc/systemd/system/getty@.service.d/" ] && mkdir -vp "/etc/systemd/system/getty@.service.d/"
+sudo mkdir -vp "/etc/systemd/system/getty@.service.d/"
+sudo mkdir -vp "/usr/share/neofetch/
+sudo mkdir -vp "/usr/share/neofetch/"
+sudo cp -v /home/fewcm/Github/archlinux-openbox/script_tty-login-neofetch/config_tty /usr/share/neofetch/
+sudo cp -v /home/fewcm/Github/archlinux-openbox/script_tty-login-neofetch/neofetch_issue.sh /usr/bin/
+chmod -v a+x /usr/bin/neofetch_issue.sH
+sudo chmod -v a+x /usr/bin/neofetch_issue.sh
+echo '[Service]\
+ExecStartPre=-/bin/bash -c "/usr/bin/neofetch_issue.sh"' | tee "/etc/systemd/system/getty@.service.d/override.conf"
+sudo echo '[Service]\
+ExecStartPre=-/bin/bash -c "/usr/bin/neofetch_issue.sh"' | tee "/etc/systemd/system/getty@.service.d/override.conf"
+sudo tee "/etc/systemd/system/getty@.service.d/override.conf"
+sudo micro "/etc/systemd/system/getty@.service.d/override.conf"
+/usr/bin/physlock -ds
+yay -Syu ly
+whereis ly
+cat /etc/ly/xsetup.sh
+ls /etc/ly
+cat /etc/ly/config.ini
+man ly
+ly --help
+ly -h
+ly
+sudo systemctl disable ly
+yay -S emptty-git
+tee ${HOME}/.config/emptty
+yay -Rscn emptty-git
+yay -S console-tdm-git
+tdmctl init
+tdmctl list
+tdmctl cache
+tdmctl add  bspwm /usr/bin/bspwm [X(default)/extra]
+tdmctl add  bspwm /usr/bin/bspwm [X(default)]
+tdmctl add  bspwm /usr/bin/bspwm
+sudo systemctl disaple lxdm-plymouth
+tdm
+exec bspwm
+exit
+sudo systemctl disable lxdm-plymouth
+git clone https://github.com/kgoettler/ursamajor-rEFInd.git
+sudo blkid
+exec openbox-session
+micro ~/.xinitrc
+startx
+xinit
+time zsh -i -c exit
+time-n-cmd 25 'zsh -i -c exit' 2>&1 > /dev/null
+autoload -Uz compinit\
+
+compinit -u
+echo $ZDOTDIR
+for i in $(seq 1 10); do; /usr/bin/time zsh -i -c exit; done
+whereis time
+for i in $(seq 1 10); do; zsh -i -c exit; done
+yay -S gtk3-classic
+pacman -Qqn > ~/pkglist.txt
+yay -Rsnc brave-bin
+yay -Rsnc urxvtconfig-git
+yay -Ss gohu
+yay -Ss Gohu
+sudo chown -R fewcm:fewcm /home/fewcm/.Xresources.d/
+sudo chown -R fewcm:users /home/fewcm/.Xresources.d/
+fc-list |
+fc-list | grep 'System'
+yay -Ss sans
+su
+git clone --depth=1 https://github.com/archcraft-os/archcraft.git archcraftOri
+cd archcraftOri/
+/home/fewcm/Downloads/unimatrix-git-r66.75f7402-1-any.pkg/usr/bin/
+unimatrix.py
+python3 unimatrix.py
+python3 unimatrix.py -c blue
+python3 unimatrix.py -c blue -l e
+reflector --protocol https --latest 70 --sort rate --save /etc/pacman.d/mirrorlist
+reflector --protocol https --latest 70 --sort rate -v --save /etc/pacman.d/mirrorlist
+reflector --protocol https --latest 70 --sort rate --v --save /etc/pacman.d/mirrorlist
+sudo reflector --protocol https --latest 70 --sort rate --v --save /etc/pacman.d/mirrorlist
+pkill urxvtd
+pkill urxvt
+pkill urxvtc
+yay -Ss zsh
+sudo systemctl --logout
+yay -Rsnc instantshell
+sudo systemctl enable lxdm-plymouth
+sudo systemctl start --now lxdm-plymouth
+sudo pacman -Syu archiso
+aria2c https://jaist.dl.sourceforge.net/project/archcraft/Archcraft_10_2020/archcraft-2020.10.02-x86_64.iso
+chmod +x setup.sh
+cd /home/fewcm/Downloads/
+sudo pacman -U archiso-47.1-1-any.pkg.tar.zst
+cd Github/
+cd ../Github
+sudo rm -rf archcraft
+git clone --depth=1 https://github.com/archcraft-os/archcraft.git\
+
+./build.sh -v
+~/.config/rofi/bin/asroot
+pacman -Qqm > foreignpkglist.txt
+cd /home/fewcm/Github/customrepo/
+tar -cjf pacman_database.tar.bz2 /home/fewcm/Github/customrepo/aur/
+yay -S --needed - < /home/fewcm/foreignpkglist.txt
+zi update -p
+sudo pacman -Syu xhost
+sudo pacman -Ss xhost
+sudo pacman -Syu xorg-xhost
+grub-customizer
+exec zsh
+lsbnk
+zi times
+l
+~/.config/polybar/launch.sh
+yay -S amule
+authy
+nitrogen --save --set-zoom-fill /home/fewcm/Pictures/output.jpg /home/fewcm/Pictures/006.png
+nitrogen --help
+nitrogen --save --set-zoom-fill --head-
+nitrogen --save --set-zoom-fill --head=0 /home/fewcm/Pictures/006.png --head=1 /home/fewcm/Pictures/whitelotus.jpg
+nitrogen --save --set-zoom-fill --head=0 /home/fewcm/Pictures/nord-theme/FRxscG4.png --head=1 /home/fewcm/Pictures/whitelotus.jpg
+nitrogen --save --set-zoom-fill --head=0 /home/fewcm/Pictures/nord-theme/FRxscG4.png
+nitrogen --save --set-zoom-fill --head=0 /home/fewcm/Pictures/whitelotus.jpg
+nitrogen --save --set-zoom-fill  --force-setter=xinerama  --head=0 /home/fewcm/Pictures/nord-theme/FRxscG4.png --head=1 /home/fewcm/Pictures/whitelotus.jpg
+nitrogen --save --set-zoom-fill  --force-setter=xinerama  --head=0 /home/fewcm/Pictures/nord-theme/FRxscG4.png 
+nitrogen --restore &
+man nitrogen
+./box.sh
+./screenshot.sh
+yay -Ss Inconsolata 
+yay -Ss nerd-font-inconsolata 
+yay -S nerd-fonts-inconsolata 
+fc-list 
+merge
+termite
+yay -S glava
+git clone https://www.reddit.com/comments/7vcgi4
+git clone https://home.tyil.nl/git/dotfiles
+cp -R /etc/xdg/glava ~/.config
+swapon --show
+cd /
+sudo dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
+sudo rm swapfile
+sudo dd if=/dev/zero of=/swapfile bs=1M count=7803 status=progress
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo micro /etc/fstab
+sysctl vm.swappiness
+sudo micro /etc/plymouth/plymouthd.conf\
+
+sudo rsnapshot configtest
+sudo rsnapshot daily
+betterlockscreen -u /usr/share/backgrounds/wal_10.jpg
+pyroom
+ranger
+urxvtc -geometry 140x25 -e ncmpcpp
+termite -geometry 140x25 -e ncmpcpp
+termite  -e ncmpcpp
+termite -e ncmpcpp -s visualizer
+termite -e 'ncmpcpp -s visualize'r
+termite -e 'ncmpcpp &'
+termite -e 'ncmpcpp >/dev/null 2>&1 &'
+termite -e 'ncmpcpp >/dev/null 2>&1'
+termite -e 'ncmpcpp' >/dev/null 2>&1
+termite -e 'ncmpcpp' >/dev/null 2>&1 &
+cava
+ncmpcpp pause
+mpc pause
+mpc stop
+mpc play
+mpc toogle
+mpd toogle
+ncmpcpp toogle
+ncmpcpp --help
+mpc -help
+mpc --help
+mpd --help
+mpd kill
+mpd --kill
+glava
+git clone https://github.com/addy-dclxvi/i3-starterpack.git
+yay -S i3-wm dunst i3lock i3status suckless-tools
+yay -Rsnc multilockscreen-git
+yay -S i3-wm i3status suckless-tools
+yay -S dmenu
+yay -S hsetroot
+yay -S xsel
+ip link
+yay -S numlockx
+git clone https://github.com/davidfstein/dots.git
+makepkg -si
+dmenu
+i3lock
+yay -S i3-gaps
+./fetch
+./fetch.sh
+sudo systemctl --reboot
+sudo systemctl logout
+sudo systemctl reboot
+~/.xprofile
+rrc
+rree  
+micro ~/.config/i3/polybar/pinknord/launch.sh
+mv ~/.xprofile ~/xprofile
+ls ~/xprofile
+counter=0\
+i3-msg -t get_workspaces | tr ',' '\n' | sed -nr 's/"name":"([^"]+)"/\1/p' | while read -r name; do\
+  printf 'ws-icon-%i = "%s;<insert-icon-here>"\n' $((counter++)) $name\
+done
+micro ~/.config/i3/polybar/pinknord/config.ini
+polybar -vvv
+polybar +i3
+thunar
+git clone https://github.com/AriosJentu/i3-polybar-config.git
+sudo pacman -U citra-qt-git-r8848.a576eb633-1-x86_64.pkg.tar.zst
+sudo pacman -U citra-git-r8848.a576eb633-1-x86_64.pkg.tar.zst
+yay -Ss citra
+yay -S citra-qt-git
+git clone https://github.com/k-vernooy/dotfiles.git dotfils2
+git clone https://github.com/Eloysheyin/Minimalist-Dots.git
+nitrogen --save --set-zoom-fill --head=0 $HOME/Pictures/wavess.jpg
+yay -S nerd-fonts-fira-code
+yay -S ttf-material-design-icons-git 
+yay -Ss  playerctl
+yay -S  playerctl
+man mpc
+exec_always --no-startup-id $HOME/.config/i3/polybar/launch.sh &
+exec --no-startup-id $HOME/.config/i3/polybar/launch.sh &
+micro  $HOME/.config/i3/polybar/launch.sh
+micro ~/xprofile
+mv ~/xprofile ~/.xprofile
+sh ~/.config/i3/polybar/scripts/date.sh
+geany &
+i3 --exit
+i3 -exit
+i3-msg
+i3-msg -exit
+i3-nagbar
+[200~exec_always --no-startup-id xrandr --output DP1 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output VGA1 --mode 1920x1080 --pos 2560x0 --rotate normal ]
+EXEC_ALWAYS --no-startup-id xrandr --output DP1 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output VGA1 --mode 1920x1080 --pos 2560x0 --rotate normal \
+
+xrandr --output DP1 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output VGA1 --mode 1920x1080 --pos 2560x0 --rotate normal \
+
+exec xrandr --output DP1 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output VGA1 --mode 1920x1080 --pos 2560x0 --rotate normal \
+
+sh /home/fewcm/.screenlayout/a.sh
+loginctl session-status\
+
+micro ~/.xprofile
+xrandr | grep '\Wconnected' | awk '{ print $1 }'
+sudo udevadm monitor
+yay -S autorandr
+xfsettingsd
+yay -Ss mate-setting
+yay -S mate-settings-deamon
+yay -S mate-settings-daemonn
+yay -S mate-settings-daemon
+mate-settings-daemon
+mate-desktop
+yay -S xfce4-i3-workspaces-plugin-git
+yay -Rsnc xfce4-i3-workspaces-plugin-git
+yay -S mate-control-center
+yay -i3
+yay -S i3
+yay -S i3-plasma
+yay -Rsnc i3-plasma
+yay -S plasma-desktop-git
+la
+cd archlive
+git clone --depth=1 https://github.com/archcraft-os/archcraft.git
+~
+amule
+yay -Rsnc plasma-desktop-git
+yay -Rsnc khtml-git
+yay -Rsnc kpackage-git
+yay -S hfsprogs 
+sudo chown -R fewcm:users /home/fewcm/Media
+sh /home/fewcm/.config/i3/polybar/pinknord/launch.sh
+~/.config/i3/rofi/pinknord/bin/powermenu
+sh ~/.config/i3/rofi/pinknord/bin/powermenu
+sh ~/.config/i3/polybar/pinknord/launch.sh
+~/.config/i3/rofi/bin/powermenu
+yay -Rsnc scim
+yay -Rsnc qt5-base
+yay -Rsnc karchive
+yay -Rsnc karchive-git
+yay -Rsnc kconfig-git
+yay -Rsnc obs-studio
+yay -Rsnc networkmanager-qt
+yay -Rsnc qt5-sensors
+yay -Rsnc qt5-tools
+yay -Rsnc qt5-doc
+yay -Rsnc qt5-speech
+yay -Rsnc qt5-svg
+yay -Rsnc qt5
+yay -Rsnc packagekit-qt5
+yay -Rsnc qt5-x11extras
+yay -Rsnc qt5-multimedia
+find /etc /usr /opt /var | LC_ALL=C pacman -Qqo - 2>&1 > /dev/null | cut -d ' ' -f 5-
+sudo find /etc /usr /opt /var | LC_ALL=C pacman -Qqo - 2>&1 > /dev/null | cut -d ' ' -f 5-
+sudo pacman -Qtdq | pacman -Rns -
+y
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo pacman -Rns boost
+sudo pacman -Qtdq > remove.txt
+sudo rm /var/lib/pacman/db.lck
+sudo pacman -Rns boost doxygen extra-cmake-modules-git glu gpsd help2man kdsoap plasma-wayland-protocols python-sphinx xf86-input-synaptics xfce4-dev-tools
+sudo pacman -Qtdq 
+sudo ./build.sh -v
+downgrade
+downgrade pacman archiso
+yay -Syu
+sudo systemctl enable libvirtd.service
+sudo systemctl start libvirtd.service\
+
+sudo vim /etc/libvirt/libvirtd.conf\
+
+sudo usermod -a -G libvirt $(whoami)\
+
+newgrp libvirt\
+
+sudo systemctl restart libvirtd.service\
+
+cd archcraft
+cp -R /usr/share/archiso/configs/releng ~/Github/archlive
+sudo rm -rf /home/fewcm/Github/archlive2/work
+yay -Rsnc zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-syntax-highlighting
+yay -Rsnc physlock
+yay -Rsnc playerctl
+yay -Rsnc nvidia-utils nvidia
+yay -Rsnc mate-settings-daemon mate-desktop mate-control-center
+pacman -Qqn > pkglist.txt
+sudo rm -rf archlive
+sudo rm -rf/home/fewcm/Github/archcraft/iso/out
+sudo rm -rf /home/fewcm/Github/archcraft/iso/out
+sudo rm -rf /home/fewcm/Github/archcraft/iso/work
+sudo ./setup.sh
+cd [200~/home/fewcm/Github/archcraft/iso/]
+cd /home/fewcm/Github/archcraft/iso
+ls
+rm -rf archcraft2
+cd /home/fewcm/Github/archcraft2/
+sudo rm -rf work/
+sudo rm -rf work/ 
+reboot
+cd /home/fewcm/Github/archcraft/iso/
+..
+git clone --depth=1 https://github.com/archcraft-os/archcraft.git archcraft2\
+
+archiso --version
+sudo pacman -Rsnc archiso
+downgrade archiso
+whereis archiso
+/home/fewcm/Github/archcraft2/setup.sh
+cd archcraft2
+./setup.sh
+cd iso
+sudo pacman -Scc
+sudo su
+/home/fewcm/.config/polybar/white/launch.sh
+/home/fewcm/.config/polybar/pinknord/launch.sh
+cd /home/fewcm/Github/archcraft2/iso/
+sudo rm -rf work
+sudo rm -rf out
+/home/fewcm/.config/polybar/launch.sh
+~/.config/rofi/pinknord/bin/powermenu
+sudo refind-mkdefault
+sudo refind-install
+git clone https://github.com/adi1090x/polybar-themes.git
+urxvt
+urxvt &
+cd /home/fewcm/.config/i3/polybar/
+micro ./tester.sh
+./tester.sh
+fc-cache
+cd '/home/fewcm/.config/i3/polybar/source/siji/scripts'
+cd '/home/fewcm/.config/i3/polybar/source/typicons'
+~/.config/i3/polybar/scripts/style-switch.sh &
+./launch.sh
+i3-config-wizard
+exec i3-sensible-terminal
+i3-dmenu-desktop
+sh ~/.config/rofi/pinknord/bin/launcher
+$HOME/.config/i3/rofi/bin/windows
+$HOME/.config/i3/rofi/bin/windows &
+xprop | grep WM_CLASS | awk '{ print $4 }'
+cd '/home/fewcm/.config/i3/bin'
+font-manager &
+mpd
+ncmpcpp -s visualizer
+tty-clock -b -c -C1 -s -t
+htop
+sh ~/.config/i3/rofi/bin/launcher
+/home/fewcm/.config/i3/bin/i3-get-window
+cd '/home/fewcm/.config/i30'
+cd '/home/fewcm/.config/bspwm/polybar'
+lxappearance &
+cd '/home/fewcm/Downloads'
+gsettings set org.gnome.desktop.interface gtk-theme Hybrid
+cd '/home/fewcm/.icons/default'
+cd '/home/fewcm/.config/gtk-3.0'
+sudo lxappearance &
+sudo lxappearance
+cd '/home/fewcm/.config/gtk-2.0'
+yay -S xfce4
+sudo pacman -S xfce4-session
+cd '/usr/share/xsessions'
+cd '/etc/lxdm'
+cd '/home/fewcm/.config/i3/polybar/source/material/scripts'
+cd '/home/fewcm/.config/i3/polybar/source/material'
+cd '/home/fewcm/Downloads/dotfiles-i3-gaps-2/.config/polybar'
+cd '/home/fewcm/.config/i3/polybar1/scripts'
+cd '/home/fewcm/.config/i3/polybar/scripts'
+sh ~/.config/i3/polybar/launch.sh
+xfsettingsd &
+yay -Ss xfce4-settings
+yay -S xfce4-settings
+xfce4-settings
+xfce4-settings &
+cd '/home/fewcm/.config/i3/pinknord'
+cd '/home/fewcm/.config/polybar/white'
+cd '/home/fewcm/.config/polybar/box'
+cd '/home/fewcm/.config/i3/polybar1'
+cd '/home/fewcm/Music'
+./youtube-mp3.sh https://www.youtube.com/watch?v=FRbaawcE3MI
+./youtube-mp3.sh https://www.youtube.com/watch?v=AuwPtj6D46E
+./youtube-mp3.sh https://www.youtube.com/watch?v=cAt9GY26SAo
+cat ./youtube-mp3.sh
+yta-mp3 https://www.youtube.com/watch?v=WepiHLYf-xM
+yta-mp3 https://www.youtube.com/watch?v=jSaF1fsosVA
+mpc update
+ncmpcpp
+cd '/home/fewcm/.config/termite'
+cd '/home/fewcm/.config/openbox'
+micro ~/.zshenv
+echo $TERM 
+cd '/etc/profile.d'
+zshrc
+termite &
+sudo systemctl enable amuled
+cd '/usr/lib/systemd/system-environment-generators'
+cd '/usr/lib/systemd/system-preset'
+cd '/usr/lib/systemd/system-shutdown'
+cd '/usr/lib/systemd/system'
+cd '/etc/fonts'
+cd '/home/fewcm/.cache'
+cd '/home/fewcm/.cache/openbox'
+sudo pacman -Syy
+yay -S i3blocks-git 
+yay -Rsnc i3blocks
+yay -Rsnc i3blocks-git
+yay -S i3blocks
+cd '/etc/i3'
+man i3blocks 
+iw dev wlan0 info
+cd '/home/fewcm/Downloads/i3blocks-contrib-master/calendar'
+i3blocks -c $XDG_CONFIG_HOME/i3/i3blocks
+pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'
+git clone [200~https://github.com/urielzo/polybar-personal-themes.giT]
+git clone https://github.com/urielzo/polybar-personal-themes.git
+cd '/home/fewcm/Github/polybar-personal-themes/3_bars'
+sudo pacman -Syu awesome-terminal-fonts
+cd '/home/fewcm/Github/polybar-personal-themes/info-bar'
+cd '/home/fewcm/.config/i3/3_bars'
+yay -S xdotool imagemagick ttf-dejavu ttf-font-awesome
+cd Github
+git clone [200~https://github.com/urielzo/skyfall.giT]
+git clone https://github.com/urielzo/skyfall.git
+cd '/home/fewcm/Github/skyfall'
+cd '/home/fewcm/Github/skyfall/cache/wal'
+yay -S python-pywal
+wal -i /home/fewcm/Pictures/alena-aenami-quiet-1px.jpg
+wal -i /home/fewcm/Pictures/alena-aenami-serenity-1k.jpg
+wal -i /home/fewcm/Pictures/wavess.jpg
+wal -i /home/fewcm/Pictures/alena-aenami-004.jpg
+wal -i /home/fewcm/Pictures/dd9mh4n-1793dda4-6d95-4c11-bbbf-2d3eb397c0ca.jpg
+wal -i /home/fewcm/Pictures/IrFMpUu.jpg
+wal -i /home/fewcm/Pictures/spiderverse.png
+wal -i /home/fewcm/Pictures/mountains.png
+wal -i /home/fewcm/Pictures/alena-aenami-quiet-1px.jpg -s -t -e
+cd '/home/fewcm/.cache/wal'
+/home/fewcm/bin/bin/calendar
+cd '/home/fewcm/bin/bin'
+cd '/home/fewcm/Github/skyfall/.config/popups/calendar'
+cd '/home/fewcm/Github/skyfall/.config/i3/scripts/polybar_modules'
+cd '/home/fewcm/Github/skyfall/.config/polybar/scripts'
+cd '/home/fewcm/Github/skyfall/.config/polybar'
+cd '/home/fewcm/Github/skyfall/.config/lemonbar'
+cd '/home/fewcm/Github/skyfall/.config/i3'
+cd '/home/fewcm/Github/skyfall/.config/i3/scripts'
+rofi -show window -theme sidebar -location 1 -width 29 -fixed-num-lines 11
+\
+
+rofi -dmenu -theme options_menu -i -p "" -location 3 -width 10 -line-margin 10
+git clone https://github.com/urielzo/animated-polybar.git
+cd '/home/fewcm/.Xresources.d'
+cd '/home/fewcm/.t2ecol'
+cd '/home/fewcm/Github/animated-polybar/.config/animated/scripts'
+~/.config/i3/animated/scripts/polybar_wrapper launch
+cd '/home/fewcm/.config/conky/res'
+cd '/home/fewcm/.config/conky'
+cd '/home/fewcm/.config/i3/animated/polybar'
+cd '/home/fewcm/.config/i3/animated/rofi'
+rofi -show run -theme drun -location 2
+rofi -dmenu -theme ~/.config/i3/animated/rofi/options_menu.rasi -i -p "" -location 3 -width 10 -line-margin 10
+cd '/home/fewcm/.config/i3/animated/scripts'
+yay -S python3-tk
+yay -S python3
+yay -S tk
+cd '/home/fewcm/Downloads/i3blocks-contrib-master/tahoe-lafs'
+cd '/home/fewcm/Downloads/i3blocks-contrib-master/shutdown_menu'
+cd '/home/fewcm/Downloads/i3blocks-contrib-master/monitor_manager'
+amule &
+yay -S fontpreview-git
+reload
+fontpreview
+printenv
+yay -S wallpaper-reddit-git
+yay -S wallpaper-reddit
+cd '/home/fewcm/.config/wallpaper-reddit'
+wallpaper-reddit
+i3-msg -t get_tree | jq -r 'recurse(.nodes[]) | select(.nodes[].focused == true) | .layout
+man i3
+cd '/home/fewcm/bin'
+pcheat
+~/bin/i3layout
+pcheat -s
+pcheat -h
+pcheat -q
+pacman -Qmq
+rofi -show drun -eh 2 -bw 0 &
+youtube-dl -v https://www.dililitv.com/vplay/NTA3NS0xLTA=.html
+youtube-dl -v https://wuji.zhulong-zuida.com/20190912/7981_c0d98637/1000k/hls/34b8f0ed825000043.ts
+yay -S youtube-dl-gui-git 
+yay -S vlc
+vlc
+yay -S rtorrent
+cp /usr/share/doc/rtorrent/rtorrent.rc ~/.rtorrent.rc
+curl -Ls "https://raw.githubusercontent.com/wiki/rakshasa/rtorrent/CONFIG-Template.md" \\
+    | sed -ne "/^######/,/^### END/p" \\
+    | sed -re "s:/home/USERNAME:$HOME:" >~/.rtorrent.rc\
+mkdir -p ~/rtorrent/
+rtorrent &
+cd '/home/fewcm/Github/i3-starterpack/.config/i3'
+micro ~/.config/i3/polybar/launch.sh
+i3
+~/.config/i3/polybar/launch.sh
+micro ~/.config/i3/config
+i3-msg --exit
+xrandr
+lsblk
+sudo mount -a
+cd '/home/fewcm/backup/backintime/MyArxh/root/1/20201004-090904-658/backup/home/fewcm/.config/i3'
+cd '/home/fewcm/.screenlayout'
+cd '/home/fewcm/.config/i3/polybar'
+cd '/home/fewcm/.config/i3/polybar/pinknord/scripts'
+cd '/home/fewcm/Documents/i3'
+iptables\
+
+yay -S ufw
+cd /home/fewcm/Github/linux_scripts/secure-linux-master/
+./secure.sh
+sudo ./secure.sh
+cd '/home/fewcm/Github/linux_scripts/BashRC-master'
+cd '/home/fewcm/Github/linux_scripts/ArchMatic-master'
+cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+cd '/home/fewcm/.config/i3'
+sudo showkey --keycodes 
+sudo showkey --scancodes
+sudo showkey --keycodes
+0123456789-+
+cd '/home/fewcm/backup/backintime/MyArxh/root/1/20201004-090904-658/backup/etc'
+cd '/etc'
+sudo thunar &
+sudo micro /etc/host.conf
+nmcli
+nmcli connection show
+nmcli --help
+thunar &
+sudo systemctl enable ufw
+sudo systemctl start --now ufw
+sh ~/.config/i3/polybar/pinknord/launch.sh &
+networkmanager_dmenu
+sudo pacman -Syu
+cd '/home/fewcm/Github/dotfils2/config/i31'
+cd '/home/fewcm/Github/archcraft2/iso/airootfs/etc/skel/.config/i3'
+cd '/home/fewcm/.config/i3/polybar/pinknord'
+cd '/home/fewcm/Github/dots/i3'
+cd '/etc/xdg/autostart'
+cd '/home/fewcm/.config/polybar/pinknord'
+sudo exec pulseaudio.desktop
+sudo pulseaudio.desktop
+systemctl --type=list
+systemctl --type=service
+systemctl --all
+rip
+pulseaudio
+pulseaudio --help
+pulseaudio --check
+pulseaudio --kill
+pulseaudio --system
+sudo pulseaudio --system
+google-chrome-stable &
+sudo  stat /etc/gshadow- 
+sudo chmod 600 /etc/shadow-
+sudo chmod 600 /etc/shadow
+sudo  stat /etc/shadow
+sudo  stat /etc/shadow-
+sudo  stat /etc/gshadow-
+sudo  stat /etc/gshadow
+sudo systemctl disable shadow
+sudo pacman -S shadow
+sudo systemctl ensable shadow
+sudo systemctl enable shadow.service\
+\
+
+systemctl --failed
+arandr
+i3-msg exit
+pkill polybar
+sh ~/.config/polybar/launch.sh &
+yay -S polybar
+sudo systemctl disable ufw
+ping 8.8.8.8
+sudo systemctl disable shadow.service
+cat /usr/lib/systemd/system/shadow.service
+sudo systemctl enable shadow.service
+sudo mkinitcpio -P
+cat /etc/shadow-
+cd '/home/fewcm/Github/archcraft2/iso'
+cd '/home/fewcm/Github/archcraft2'
+where mkarchiso
+cat /usr/bin/mkarchiso
+cd '/home/fewcm/Github/archcraft2/iso/airootfs/abif-master'
+group fewcm
+groups fewcm
+sudo cat /etc/shadow-
+stat /etc/shadow
+stat /etc/shadow-
+stat /etc/gshadow-
+stat /etc/gshadow
+sudo pwck
+sudo grpck
+grpck -r
+sudo grpck -r
+sudo pwck -r
+cd '/home/fewcm/Github/linux_scripts/secure-linux-master'
+cd '/home/fewcm/Github/linux_scripts/firewallsetup-master'
+usermod --help
+gpasswd 0M
+gpasswd -M
+sudo gpasswd -M fewcm
+sudo gpasswd -M 
+gpasswd
+sudo groupadd amd
+sudo gpasswd -a fewcm amd
+id fewcm
+sudo gpasswd -d fewcm amd
+sudo systemctl --failed
+sudo systemctl status shadow.service
+sudo groupadd video scanner optical
+sudo groupadd video
+sudo groupadd scanner
+sudo groupadd optical
+cat /etc/group
+sudo grpconv
+cat /etc/gshadow
+sudo cat /etc/shadow
+loginctl lock-session
+sudo cat /etc/gshadow
+sudo -Rsnc pulseaudio
+sudo sudo -Rsnc pulseaudio
+sudo pacman -Rsnc pulseaudio
+sudo pacman -Rsnc alsa
+sudo pacman -Rsnc alsautil
+sudo pacman -Rsnc alsautils
+sudo pacman -Rsnc alsa-tools
+sudo pacman -Rsnc alsa-utils
+sudo pacman -Rsnc alsa-plugins
+sudo pacman -Rsnc pavucontrol
+bleachbit &
+cd '/home/fewcm'
+yay -S alsa-utils
+sudo pacman -S --needed - < pkglist.txt\
+
+alsamixer
+systemctl status alsa
+systemctl list-unit-files
+systemctl status alsa-state
+systemctl status alsa-restore
+pavucontrol
+sudo backintime &
+sudo backintime
+systemctl status alsa-store
+systemctl status shadow.service
+: 1601924077:0;sudo pacman -Rsnc ufw
+: 1601924085:0;reboot
+: 1601924163:0;systemctl status shadow.service
+: 1601925619:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master'
+: 1601925660:0;cd '/home/fewcm/Github/linux_scripts/firewallsetup-master'
+: 1601925664:0;cd '/home/fewcm/Github/linux_scripts/secure-linux-master'
+: 1601925666:0;cd '/home/fewcm/Github/archcraft2'
+: 1601925668:0;cd '/home/fewcm/Github/archcraft2/iso'
+: 1601925670:0;cd '/home/fewcm/.config/polybar/pinknord'
+: 1601925673:0;cd '/home/fewcm/.config/i3/polybar/pinknord'
+: 1601925677:0;cd '/home/fewcm/Github/dots/i3'
+: 1601925678:0;cd '/home/fewcm/Documents/i3'
+: 1601925679:0;cd '/home/fewcm/.config/i3'
+: 1601925702:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master'
+: 1601925805:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+: 1601925872:0;sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+: 1601925894:0;sudo curl -s "https://www.archlinux.org/mirrorlist/?country=SG&protocol=https&use_mirror_status=on" | sed -e 's/^#Server/Server/' -e '/^#/d' | rankmirrors -n 5 - > /etc/pacman.d/mirrorlist
+: 1601925921:0;sudo curl -s "https://www.archlinux.org/mirrorlist/?country=SG&protocol=https&use_mirror_status=on" | sed -e 's/^#Server/Server/' -e '/^#/d' | sudo  rankmirrors -n 5 - > /etc/pacman.d/mirrorlist
+: 1601925952:0;sudo curl -s "https://www.archlinux.org/mirrorlist/?country=SG&protocol=https&use_mirror_status=on" | sed -e 's/^#Server/Server/' -e '/^#/d' | sudo  rankmirrors -n 5 - > ~/mirrorlist
+: 1601925966:0;micro ~/mirrorlist
+: 1601926556:0;pcheat -q
+: 1601926582:0;pacman -Qqn > pkglist.txt
+: 1601926611:0;sudo mv /etc/pacman.d/mirrorlist.backup /etc/pacman.d/mirrorlist
+: 1601926615:0;pacman -Qqn > pkglist.txt
+: 1601926627:0;micro pkglist.txt
+: 1601926649:0;yay -Ss icons
+: 1601926795:0;yay -Ss papirus-icon-theme-git
+: 1601926802:0;yay -S papirus-icon-theme-git
+: 1601926909:0;yay -S materia-gtk-theme 
+: 1601926945:0;cd '/home/fewcm'
+: 1601926984:0;pacman -Qqn > pkglist.txt
+: 1601926989:0;micro pkglist.txt
+: 1601927580:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+: 1601927636:0;./1-1.sh
+: 1601927669:0;micro pkglist.txt
+: 1601927826:0;cd ~
+: 1601927854:0;pacman -Qqm > foreignpkglist.txt
+: 1601927862:0;micro foreignpkglist.txt
+: 1601928105:0;cd '/home/fewcm'
+: 1601928107:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+: 1601928111:0;cd '/home/fewcm'
+: 1601928115:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+: 1601928281:0;cd \
+
+: 1601928294:0;cd /home/fewcm/Github/linux_scripts/ArchMatic-master-1/
+: 1601928310:0;ls
+: 1601928318:0;./3-3.sh
+: 1601928534:0;cd '/home/fewcm/.config/openbox'
+: 1601928550:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+: 1601928554:0;cd '/home/fewcm'
+: 1601928557:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+: 1601928762:0;cd '/home/fewcm/Github/archcraft2/iso'
+: 1601928769:0;cd '/home/fewcm/Github/archcraft2/iso/airootfs/root'
+: 1601928794:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+: 1601929464:0;cd '/home/fewcm/Github/archcraft2/iso/airootfs/etc/lxdm'
+: 1601929623:0;cd '/home/fewcm/Github/archcraft2/iso/airootfs/root'
+: 1601929635:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1/etc/lxdm'
+: 1601929645:0;cd '/home/fewcm/Github/archcraft2/iso/airootfs/root'
+: 1601929743:0;cd '/home/fewcm/Github/linux_scripts/ArchMatic-master-1'
+: 1601929848:0;cd '/home/fewcm/Github/archcraft2/iso/airootfs/abif-master'
+: 1601930038:0;cd '/home/fewcm/Github/archcraft2/iso/airootfs/root'
+: 1601930120:0;cd '/home/fewcm/Github/archcraft2/iso/airootfs/abif-master'
+: 1601930298:0;cd '/home/fewcm/Github/archcraft2/iso/airootfs/root'
+: 1601930350:0;cd '/tmp/xa-YSU2R0'
+: 1601930607:0;sudo cp -rf $dir/usr/ ~/usr/
+: 1601930621:0;sudo cp -rf $dir/usr/ ~/usr1/
+: 1601930704:0;sudo rm -rf ~/usr1/
+: 1601930719:0;ls
+: 1601930732:0;sudo cp -rf $pwd/usr/ ~/usr1/
+: 1601930764:0;sudo rm -rf ~/usr1/
+: 1601930972:0;dir=$home/fewcm/linuxscripts
+: 1601930990:0;sudo cp -rf $dir/usr/ ~/usr1/
+: 1601931012:0;dir=home/fewcm/linuxscripts
+: 1601931018:0;sudo cp -rf $dir/usr/ ~/usr1/
+: 1601931110:0;dir=/home/fewcm/linuxscripts/
+: 1601931123:0;sudo cp -rf $dir/usr/ ~/usr1/

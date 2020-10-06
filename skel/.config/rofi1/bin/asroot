@@ -1,0 +1,36 @@
+#!/bin/bash
+
+DIR="$HOME/.config/"
+
+rofi_command="rofi -theme $DIR/rofi/themes/asroot.rasi"
+
+# Apps
+terminal=" Urxvt"
+files=" Thunar"
+editor=" Geany"
+clifm=" Ranger"
+vim=" Vim"
+
+# Variable passed to rofi
+options="$terminal\n$files\n$editor\n$clifm\n$vim"
+
+chosen="$(echo -e "$options" | $rofi_command -p "Run as root(#)" -dmenu -selected-row 0)"
+case $chosen in
+    $terminal)
+        apps_as_root 'urxvt'
+        ;;
+    $files)
+        apps_as_root 'dbus-run-session thunar'
+        ;;
+    $editor)
+        apps_as_root geany
+        ;;
+    $clifm)
+        apps_as_root 'termite -e ranger'
+        ;;
+    $vim)
+        apps_as_root 'termite -e vim'
+        ;;
+esac
+
+

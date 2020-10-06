@@ -1,0 +1,54 @@
+xrandr --output DP1 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output DP2 --off --output HDMI1 --off --output HDMI2 --off --output VGA1 --mode 1920x1080 --pos 2560x0 --rotate normal --output VIRTUAL1 --off
+#xrandr --output DP1 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output DP2 --off --output HDMI1 --off --output HDMI2 --off --output VGA1 --off --output VIRTUAL1 --off
+### Enable Super Keys For Menu
+ksuperkey -e 'Super_L=Alt_L|F1' &
+ksuperkey -e 'Super_R=Alt_L|F1' &
+numlockx &
+xset r rate 190 55
+xset b off
+
+eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## Restore Wallpaper
+nitrogen --restore
+
+## xfce4-settings daemon
+xfsettingsd &
+
+## Start Compositing Manager
+exec compton -b &
+
+## Launch Polybar
+sh ~/.config/polybar/launch.sh
+
+## Launch Plank
+exec plank &
+
+## Start Music Player Daemon
+exec mpd &
+
+## Notification Daemon
+exec dunst &
+
+## Thunar Daemon
+exec thunar --daemon &
+
+
+## Enable power management
+xfce4-power-manager &
+
+## Getting Started
+#gs_run_once.sh
+
+## Issue Tracker (Don't Remove IT)
+issue_tracker.sh
+
+fcitx -D &
+
+xrdb merge ~/.Xresources &
+
+urxvtd --quiet --opendisplay --fork  &
+
+termite --class=Termite-main &
+
